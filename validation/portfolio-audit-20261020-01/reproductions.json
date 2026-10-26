@@ -1,0 +1,35 @@
+{
+  "max_stack_unknown_quantity": {
+    "limit": 1,
+    "unknown_reason": "eligible",
+    "observation": "AMBIGUOUS",
+    "effective_quantity": 1,
+    "known_64_reason": "stack_limit"
+  },
+  "static_after_unknown": {
+    "result": "STATIC_DELAY",
+    "freshness_barrier_after": false,
+    "frame_returned": true
+  },
+  "replaced_row_reread_False": {
+    "original_price": 80,
+    "replacement_price": 90,
+    "result": "SUCCESS",
+    "fake_buy_sent": true,
+    "rereads": 0
+  },
+  "replaced_row_reread_True": {
+    "original_price": 80,
+    "replacement_price": 90,
+    "result": "STALE",
+    "fake_buy_sent": false,
+    "rereads": 1
+  },
+  "damaged_settings": "JSONDecodeError propagates to main before UI",
+  "replay_unknown_modal": {
+    "blocking_modal": true,
+    "replay_guard_accepts": true,
+    "runner_clean_auction_accepts": false,
+    "scope": "guard expressions only; no native OCR or game input"
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "scenario": "hover_cleared",
+    "result": "CHANGED_STABLE",
+    "returned_after_ms": 24.0,
+    "actual_list_update_ms": 300,
+    "returned_old_list": true
+  },
+  {
+    "scenario": "empty_then_old_list",
+    "result": "CHANGED_STABLE",
+    "returned_after_ms": 24.0,
+    "actual_list_update_ms": 300,
+    "returned_old_list": true
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "reproductions": {
+    "static_releases_unknown_barrier_without_change": {
+      "returned_frame": true,
+      "barrier_after": false,
+      "result": "STATIC_DELAY",
+      "input_events": [
+        [
+          1342,
+          345
+        ]
+      ]
+    },
+    "replacement_row_revalidate_False": {
+      "result": "SUCCESS",
+      "buy_sent": true,
+      "rereads": 0,
+      "original_price": 80,
+      "current_price": 90
+    },
+    "replacement_row_revalidate_True": {
+      "result": "STALE",
+      "buy_sent": false,
+      "rereads": 1,
+      "original_price": 80,
+      "current_price": 90
+    }
+  },
+  "benchmark": {
+    "source": "data\\diagnostics\\0dc6964168184d8ea0c2b52c78adf730\\screen.png",
+    "timings_ms": {
+      "auction": {
+        "n": 25,
+        "mean": 0.445,
+        "p50": 0.442,
+        "p90": 0.45,
+        "p95": 0.474,
+        "p99": 0.555,
+        "max": 0.579
+      },
+      "any_menu": {
+        "n": 25,
+        "mean": 1.259,
+        "p50": 1.185,
+        "p90": 1.462,
+        "p95": 1.517,
+        "p99": 1.931,
+        "max": 2.06
+      },
+      "blocking_modal": {
+        "n": 25,
+        "mean": 5.28,
+        "p50": 5.03,
+        "p90": 6.404,
+        "p95": 6.68,
+        "p99": 7.128,
+        "max": 7.254
+      },
+      "outcome": {
+        "n": 25,
+        "mean": 14.96,
+        "p50": 14.988,
+        "p90": 16.636,
+        "p95": 17.163,
+        "p99": 17.4,
+        "max": 17.435
+      },
+      "clean_auction": {
+        "n": 25,
+        "mean": 27.11,
+        "p50": 24.265,
+        "p90": 37.056,
+        "p95": 43.706,
+        "p99": 46.264,
+        "max": 46.78
+      },
+      "field_pixels_9": {
+        "n": 25,
+        "mean": 0.06,
+        "p50": 0.059,
+        "p90": 0.062,
+        "p95": 0.066,
+        "p99": 0.071,
+        "max": 0.072
+      },
+      "png_level_6": {
+        "n": 12,
+        "mean": 79.332,
+        "p50": 79.186,
+        "p90": 81.819,
+        "p95": 84.879,
+        "p99": 87.784,
+        "max": 88.511,
+        "bytes": 625708
+      },
+      "png_level_1": {
+        "n": 12,
+        "mean": 48.309,
+        "p50": 46.643,
+        "p90": 52.771,
+        "p95": 53.845,
+        "p99": 54.875,
+        "max": 55.132,
+        "bytes": 956120
+      },
+      "sqlite_balance": {
+        "n": 25,
+        "mean": 1.873,
+        "p50": 1.817,
+        "p90": 2.366,
+        "p95": 2.777,
+        "p99": 2.864,
+        "max": 2.865
+      },
+      "sqlite_begin_plus_finish_empty_db": {
+        "n": 25,
+        "mean": 24.037,
+        "p50": 23.882,
+        "p90": 24.842,
+        "p95": 25.02,
+        "p99": 26.662,
+        "max": 27.176
+      },
+      "sqlite_event": {
+        "n": 25,
+        "mean": 11.685,
+        "p50": 11.595,
+        "p90": 12.279,
+        "p95": 12.287,
+        "p99": 12.295,
+        "max": 12.298
+      }
+    },
+    "note": "Offline components; no screen capture, input, OCR inference, or game-load control. PNG encoding excludes disk writes; temp SQLite has a short history."
+  }
+}

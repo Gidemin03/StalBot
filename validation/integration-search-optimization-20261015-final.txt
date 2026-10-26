@@ -1,0 +1,4 @@
+batch 1 {'names_correct': 170, 'upgrade_errors': [], 'name_errors': [], 'differences_from_batch1': 0, 'total_ms': 5195.023400359787, 'p50_batch_ms': 26.48865000810474, 'p95_batch_ms': 56.18124499451367}
+batch 3 {'names_correct': 170, 'upgrade_errors': [], 'name_errors': [], 'differences_from_batch1': 0, 'total_ms': 6718.383199884556, 'p50_batch_ms': 113.52150002494454, 'p95_batch_ms': 175.1897000242024}
+batch 9 {'names_correct': 170, 'upgrade_errors': [], 'name_errors': [], 'differences_from_batch1': 0, 'total_ms': 10308.809099951759, 'p50_batch_ms': 539.1545000020415, 'p95_batch_ms': 687.0012999512254}
+Integration regression passed: validation\integration-search-optimization-20261015-final.json

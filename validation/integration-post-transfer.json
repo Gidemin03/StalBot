@@ -1,0 +1,1592 @@
+{
+  "labels_sha256": "20de6ed3e416fe9bea5e5ff614e7f9dc194978a4e79b5199108f9ffac94465d1",
+  "rows": 170,
+  "batches": {
+    "1": {
+      "names_correct": 170,
+      "upgrade_errors": [],
+      "name_errors": [],
+      "differences_from_batch1": 0,
+      "total_ms": 4769.8328997939825,
+      "p50_batch_ms": 24.758549930993468,
+      "p95_batch_ms": 45.25562999187969
+    },
+    "3": {
+      "names_correct": 170,
+      "upgrade_errors": [],
+      "name_errors": [],
+      "differences_from_batch1": 0,
+      "total_ms": 6357.280999887735,
+      "p50_batch_ms": 103.47039997577667,
+      "p95_batch_ms": 159.24614001996812
+    },
+    "9": {
+      "names_correct": 170,
+      "upgrade_errors": [],
+      "name_errors": [],
+      "differences_from_batch1": 0,
+      "total_ms": 11572.399199940264,
+      "p50_batch_ms": 606.8540000123903,
+      "p95_batch_ms": 780.1093099871647
+    }
+  },
+  "color": {
+    "counts": {
+      "green": 25,
+      "purple": 15,
+      "red": 64,
+      "blue": 9,
+      "white": 52,
+      "gold": 5
+    },
+    "correct": 170,
+    "errors": []
+  },
+  "numeric": {
+    "quantity": {
+      "accepted": 53,
+      "correct": 53,
+      "semantic_correct": 169,
+      "value_n": 54,
+      "value_correct": 53,
+      "dangerous": 0,
+      "errors": [
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1ad3c89574632ec899a9b64655c3556d5107ab59bc73bad5a4e9147d5c552e08",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1ad3c89574632ec899a9b64655c3556d5107ab59bc73bad5a4e9147d5c552e08",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "1ad3c89574632ec899a9b64655c3556d5107ab59bc73bad5a4e9147d5c552e08",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 3,
+          "expected": 64,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 1,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 2,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 3,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 4,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 5,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 6,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 7,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 8,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 9,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 10,
+          "expected": 1,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": ""
+          }
+        }
+      ]
+    },
+    "buyout": {
+      "accepted": 146,
+      "correct": 158,
+      "semantic_correct": 158,
+      "value_n": 153,
+      "value_correct": 146,
+      "dangerous": 0,
+      "errors": [
+        {
+          "source": "8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9",
+          "row": 6,
+          "expected": null,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "-="
+          }
+        },
+        {
+          "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+          "row": 2,
+          "expected": 9999999999,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "-й9 999 999 999 рублей"
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 4,
+          "expected": null,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "YY] ---"
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 5,
+          "expected": null,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "Ib ---"
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 6,
+          "expected": null,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "-="
+          }
+        },
+        {
+          "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+          "row": 7,
+          "expected": null,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "7 ---"
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 5,
+          "expected": 650000000,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "1ей650 000 000 рублей"
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 6,
+          "expected": 263000000,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "1ей263 000 000 рублей"
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 7,
+          "expected": 222222222,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "тей! 222 222 222 рубля"
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 8,
+          "expected": 999999999,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "ля 999 999 999 рублей"
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 9,
+          "expected": 190000000,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "1ей190 000 000 рублей"
+          }
+        },
+        {
+          "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+          "row": 10,
+          "expected": 150000000,
+          "actual": {
+            "state": "AMBIGUOUS",
+            "value": null,
+            "raw": "1ей150 000 000 рублей"
+          }
+        }
+      ]
+    }
+  },
+  "templates": {
+    "2 Скриншот с меню покупки.png": {
+      "auction": true,
+      "menus": [
+        7
+      ],
+      "outcome": null
+    },
+    "3 скриншот с меню покупки.png": {
+      "auction": true,
+      "menus": [
+        9
+      ],
+      "outcome": null
+    },
+    "Обычный скриншот.png": {
+      "auction": true,
+      "menus": [],
+      "outcome": null
+    },
+    "Скриншот с меню покупки.png": {
+      "auction": true,
+      "menus": [
+        1
+      ],
+      "outcome": null
+    },
+    "Скриншот уведомления о том что предмет выкуплен.png": {
+      "auction": true,
+      "menus": [],
+      "outcome": "UNAVAILABLE"
+    },
+    "Скриншот успешной покупки.png": {
+      "auction": true,
+      "menus": [],
+      "outcome": "SUCCESS"
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-10-14T16:16:44.603402+00:00",
+    "baseline": {
+      "schema_version": 1,
+      "source": "integration.json; reviewed 170-lot snapshot, 2026-10-14",
+      "labels_sha256": "20de6ed3e416fe9bea5e5ff614e7f9dc194978a4e79b5199108f9ffac94465d1",
+      "rows": 170,
+      "numeric": {
+        "quantity": {
+          "value_n": 54,
+          "minimum_value_correct": 53,
+          "minimum_correct": 53,
+          "minimum_semantic_correct": 169
+        },
+        "buyout": {
+          "value_n": 153,
+          "minimum_value_correct": 146,
+          "minimum_correct": 158,
+          "minimum_semantic_correct": 158
+        }
+      }
+    },
+    "code_sha256": {
+      "main.py": "721c5d49eaffcf8c8de5c29551ccbaa8e05d3ea5bbd9d9d4a4f9051686934c12",
+      "tools\\validate_bot.py": "67b5d2ccd45a8b45ade5cf38e886f0831da285c69ffc02b455b48ea852c45b51",
+      "stalbot\\__init__.py": "a7fe8756a7b05aeecd0492c03006c623ec9989c4a4934eb7bae3ab5e27c6ba81",
+      "stalbot\\config.py": "e8fe8b35e60b3dac3327a15e421f5b5bb2c0bed77a999d993fb750dba204197d",
+      "stalbot\\domain.py": "5059d7ca0ca79d1aebe05ab658fa7e4de11763e16b0b849503792890350560a5",
+      "stalbot\\interface.py": "325df1cc0ca598e0b5250d7db7f6d47f2fb68aaa9f9c50fc947182fadb910339",
+      "stalbot\\runner.py": "d55e9b925dde7fc50078369bd154fadb31587eb826606fbed249bf8bbe4d2726",
+      "stalbot\\scanner.py": "f793f6dc9468f495a7abfd370a667ae955bdf5c2b880e3f5cd7e97b71d9b1db0",
+      "stalbot\\storage.py": "0fd1e6fc156e49b9f2256942edf0b6689a974786575b671ce51b31e54e318675",
+      "stalbot\\ui.py": "8c25643ddb23e873a18f92fc487b88374e3b119ec6d067ce6fb933cde1b8ac57",
+      "stalbot\\vision.py": "d813ebb11dbc1f8aca7d35d14dd7712f9f133c68255af70cee4094fdc656a366",
+      "stalbot\\windows.py": "83e3037829546d3521c0ca8a9c37a46816609d3a2e92637114f7320c710eefdf"
+    },
+    "models_sha256": {
+      "rapid/cyrillic_PP-OCRv5_rec_mobile.onnx": "90f761b4bfcce0c8c561c0cb5c887b0971d3ec01c32164bdf7374a35b0982711",
+      "tessdata/rus.traineddata": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225",
+      "tessdata/eng.traineddata": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2"
+    }
+  },
+  "mock_replay": [
+    {
+      "source": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "1ad3c89574632ec899a9b64655c3556d5107ab59bc73bad5a4e9147d5c552e08",
+      "chosen_rows": [
+        2,
+        2,
+        2
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+      "chosen_rows": [
+        3,
+        3,
+        3
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+      "chosen_rows": [
+        1,
+        1,
+        1
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+      "chosen_rows": [
+        null,
+        null,
+        null
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+      "chosen_rows": [
+        8,
+        8,
+        8
+      ],
+      "batch_agreement": true
+    },
+    {
+      "source": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+      "chosen_rows": [
+        null,
+        null,
+        null
+      ],
+      "batch_agreement": true
+    }
+  ]
+}

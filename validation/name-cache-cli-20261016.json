@@ -1,0 +1,397 @@
+{
+  "passed": true,
+  "cli": [
+    {
+      "mode": "replay",
+      "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\templates\\Обычный скриншот.png",
+      "batch": 9,
+      "preparation": {
+        "load_ms": 963.4955000365153,
+        "warmup_ms": 905.4440000327304,
+        "duration_ms": 1868.9589999848977
+      },
+      "name_cache": {
+        "capacity": 1000,
+        "entries": 7,
+        "hits": 0,
+        "misses": 9,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "pixel_bytes": 84987
+      },
+      "group_size": 9,
+      "selection_metric": "profit",
+      "timings": {
+        "scan": {
+          "name_ms": 439.62620000820607,
+          "quantity_ms": 0.0,
+          "buyout_ms": 0.0,
+          "evaluation_ms": 0.016100122593343258,
+          "total_ms": 439.729499979876
+        }
+      },
+      "elapsed_ms": 439.729499979876,
+      "chosen_row": null,
+      "rows": [
+        {
+          "row": 0,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.86375556492971
+        },
+        {
+          "row": 1,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.85345560291575
+        },
+        {
+          "row": 2,
+          "identity": {
+            "name": "CCA-Zephyr",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.85095558387952
+        },
+        {
+          "row": 3,
+          "identity": {
+            "name": "Колбасная нарезка",
+            "color": "green",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.850055577026474
+        },
+        {
+          "row": 4,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 8,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.85065558159517
+        },
+        {
+          "row": 5,
+          "identity": {
+            "name": "Продвинутые запчасти",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.85465549563782
+        },
+        {
+          "row": 6,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.849955576265025
+        },
+        {
+          "row": 7,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.849855575503575
+        },
+        {
+          "row": 8,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 7,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 48.849855575503575
+        }
+      ]
+    },
+    {
+      "mode": "replay",
+      "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\templates\\Обычный скриншот.png",
+      "batch": 9,
+      "preparation": {
+        "load_ms": 947.8707999223843,
+        "warmup_ms": 874.0491000935435,
+        "duration_ms": 1821.9396999338642
+      },
+      "name_cache": {
+        "capacity": 0,
+        "entries": 0,
+        "hits": 0,
+        "misses": 0,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "pixel_bytes": 0
+      },
+      "group_size": 9,
+      "selection_metric": "profit",
+      "timings": {
+        "scan": {
+          "name_ms": 395.0171999167651,
+          "quantity_ms": 0.0,
+          "buyout_ms": 0.0,
+          "evaluation_ms": 0.020600156858563423,
+          "total_ms": 395.1191999949515
+        }
+      },
+      "elapsed_ms": 395.1191999949515,
+      "chosen_row": null,
+      "rows": [
+        {
+          "row": 0,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.91229992163264
+        },
+        {
+          "row": 1,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.89750004176878
+        },
+        {
+          "row": 2,
+          "identity": {
+            "name": "CCA-Zephyr",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.89460001968675
+        },
+        {
+          "row": 3,
+          "identity": {
+            "name": "Колбасная нарезка",
+            "color": "green",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.893800013595154
+        },
+        {
+          "row": 4,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 8,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.8941000158795
+        },
+        {
+          "row": 5,
+          "identity": {
+            "name": "Продвинутые запчасти",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.89689992078476
+        },
+        {
+          "row": 6,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.893500011310806
+        },
+        {
+          "row": 7,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.893500011310806
+        },
+        {
+          "row": 8,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 7,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 43.89340001054936
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "auction": {
+    "source": "Обычный скриншот.png",
+    "sha256": "902e40ddfab93603fb634f24f6017ddda6f5d10c82b0b8910e8048cd6c8a3c30",
+    "box": [
+      885,
+      372,
+      1386,
+      393
+    ]
+  },
+  "buy": {
+    "source": "Скриншот с меню покупки.png",
+    "sha256": "3a919e55dcbbb34a14dffc55771bc2977715b7bd49daa18677a5d9552a03ffd4",
+    "box": [
+      1285,
+      441,
+      1377,
+      455
+    ]
+  },
+  "success": {
+    "source": "Скриншот успешной покупки.png",
+    "sha256": "f9af5d7afb40442948fe4ec09bc3e6e21883a651135a8ff8774a878b69b9a707",
+    "box": [
+      790,
+      498,
+      1130,
+      533
+    ]
+  },
+  "insufficient": {
+    "source": "validation/insufficient-20261015/source.png",
+    "sha256": "ccd4c9e6f85342fc6bca36950e8bda7873c080539ecf6d3ea9ccbd47996c0307",
+    "box": [
+      802,
+      506,
+      1120,
+      530
+    ]
+  },
+  "unavailable": {
+    "source": "Скриншот уведомления о том что предмет выкуплен.png",
+    "sha256": "6cb10ddaa948ffb44db5458527524aae4bc148b29c6087747902e4771d309914",
+    "box": [
+      835,
+      507,
+      1085,
+      529
+    ]
+  },
+  "modal_ok": {
+    "source": "validation/insufficient-20261015/source.png",
+    "sha256": "ccd4c9e6f85342fc6bca36950e8bda7873c080539ecf6d3ea9ccbd47996c0307",
+    "box": [
+      877,
+      556,
+      1045,
+      597
+    ],
+    "purpose": "Block known-style modal input; never classify a purchase outcome"
+  }
+}

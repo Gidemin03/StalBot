@@ -1,0 +1,290 @@
+[
+  {
+    "path": "dataset\\templates\\2 Скриншот с меню покупки.png",
+    "sha256": "52aa60f3fec6dd96afbd4ef562bbe9f7a0ff87f2d46917b42987a4a9b7a319d3",
+    "state": "VALUE",
+    "value": 2246604,
+    "raw": "Счет: 2 246 604 руб.",
+    "elapsed_ms": 36.184800090268254
+  },
+  {
+    "path": "dataset\\templates\\3 скриншот с меню покупки.png",
+    "sha256": "d20a84b0e11f8b68652743de53d0fc7498974643d3193f57ddc6cb686052d91f",
+    "state": "VALUE",
+    "value": 2246604,
+    "raw": "Счет: 2 246 604 руб.",
+    "elapsed_ms": 26.06740011833608
+  },
+  {
+    "path": "dataset\\templates\\Обычный скриншот.png",
+    "sha256": "902e40ddfab93603fb634f24f6017ddda6f5d10c82b0b8910e8048cd6c8a3c30",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 25.592199992388487
+  },
+  {
+    "path": "dataset\\templates\\Скриншот с меню покупки.png",
+    "sha256": "3a919e55dcbbb34a14dffc55771bc2977715b7bd49daa18677a5d9552a03ffd4",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 26.299400022253394
+  },
+  {
+    "path": "dataset\\templates\\Скриншот уведомления о том что предмет выкуплен.png",
+    "sha256": "6cb10ddaa948ffb44db5458527524aae4bc148b29c6087747902e4771d309914",
+    "state": "VALUE",
+    "value": 2246604,
+    "raw": "Счет: 2 246 604 руб.",
+    "elapsed_ms": 26.398600079119205
+  },
+  {
+    "path": "dataset\\templates\\Скриншот успешной покупки.png",
+    "sha256": "f9af5d7afb40442948fe4ec09bc3e6e21883a651135a8ff8774a878b69b9a707",
+    "state": "VALUE",
+    "value": 2377082,
+    "raw": "Счет: 2 377 082 руб.",
+    "elapsed_ms": 26.408799923956394
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.11.03.png",
+    "sha256": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 25.333500001579523
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.11.23.png",
+    "sha256": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 27.16720011085272
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.11.57.png",
+    "sha256": "dfded62ff95ce14f280f13885322789e0f7c6bbcf834fd5d72d2ee1a0afa5079",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 31.13129991106689
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.15.24.png",
+    "sha256": "83298508aa915a826d8a286759e2eba7ff8516d0d649d0413ef55bfee2c5d55f",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 26.48899983614683
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.15.46.png",
+    "sha256": "a3f3621425726e0957f0f848fbd73c803c3235e9255842afc3cb1fbd23affab2",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 27.045000111684203
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.15.52.png",
+    "sha256": "60087e836634707740e95c52a56be7d5c60af880f616f0f94c95567de859a7b8",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 31.298500020056963
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.16.18.png",
+    "sha256": "3a1b8cb96495b6dffabb5957ab835c22562d788f78704acb7f15bd1a057fb685",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 28.9491000585258
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.19.00.png",
+    "sha256": "c2f3d1336b628bacfae6a7a67381509160a36f5abf9047df9974de417fb7647f",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 30.796000035479665
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.19.49.png",
+    "sha256": "d027417e579ed73d8a882f71f7e4bcc49533edebffe8afc8c28a5c876b7b5322",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 26.935300091281533
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.20.06.png",
+    "sha256": "d5792f2df525eb4720651eb83a294c7bb19658876078b457fc51b180958a4071",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 29.719799989834428
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.20.18.png",
+    "sha256": "785bdb100e3e8ac62bc78f4f97b9835fb7e788651b8f31755e8d667542886d45",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 33.40730001218617
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_10.20.31.png",
+    "sha256": "e17c9e1d3fd48e7676bfcc6ffe2b9e021f3bbc864edd706f1d06f6d32be79ce5",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 26.448999997228384
+  },
+  {
+    "path": "dataset\\hard_cases\\2026-10-14_13.18.16.png",
+    "sha256": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+    "state": "VALUE",
+    "value": 2246604,
+    "raw": "Счет: 2 246 604 руб.",
+    "elapsed_ms": 26.586699998006225
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png",
+    "sha256": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 32.403800170868635
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\1ad3c89574632ec899a9b64655c3556d5107ab59bc73bad5a4e9147d5c552e08.png",
+    "sha256": "1ad3c89574632ec899a9b64655c3556d5107ab59bc73bad5a4e9147d5c552e08",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 29.306499985978007
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609.png",
+    "sha256": "1d8baf35ddbc8466d7af630ed14f911145314ee400ad4204ffaf69d97e5ac609",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 29.907899908721447
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4.png",
+    "sha256": "25cf5f63dfb2ef1749193c953d300f5fee9a6d8c3e9819b17136b7a12eb9dfb4",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 27.53550000488758
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a.png",
+    "sha256": "2db79a6865451fe5b7c5d7f9aa583a6cf0d5c5dabc9a4a360061a4de759a425a",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 32.45489997789264
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png",
+    "sha256": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 31.040200032293797
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40.png",
+    "sha256": "59d78a518fd1b50381b58f2b6160c2cd553183a300f3c0a3af890d0a51c84c40",
+    "state": "VALUE",
+    "value": 2246604,
+    "raw": "Счет: 2 246 604 руб.",
+    "elapsed_ms": 26.713999919593334
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91.png",
+    "sha256": "5a89a7476d294ddd8b7f1ec5ad24444a0b2777f5801fc87468409de50adc5c91",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 28.44809996895492
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad.png",
+    "sha256": "5c48fe220eaf0f6eebcdef463bb41ebb8e0dc995ec867857d9526cd7c7afbfad",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 27.11670007556677
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa.png",
+    "sha256": "65c2968ed45343413c575e7bd600d4421a27294f3a8c24e17b656c1d47b011fa",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 28.80690013989806
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png",
+    "sha256": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 30.163099989295006
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b.png",
+    "sha256": "841be517a813a53d9988eec88a2dc82e6cc8f6442e33e45f714f255d9f00cf3b",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 28.0736000277102
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9.png",
+    "sha256": "8e9bf10c7e7bffb116923964c368d7e4155f00f013eff85357fc3b42f94d97f9",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 29.67329998500645
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20.png",
+    "sha256": "ae497dd6757a733b2917f06158fe829c5cfc0c6b223940599db2a1554232ee20",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 30.786900082603097
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d.png",
+    "sha256": "cf778c201a02176cdf31e35d121fa61345c3dfaf3aeed495126055d147ca253d",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 28.99500005878508
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6.png",
+    "sha256": "eb23dc527f591b3a8b2314c5fe361bb6aae8e851cc9031dedef5f8c4ba558fd6",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 29.74299993366003
+  },
+  {
+    "path": "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png",
+    "sha256": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+    "state": "VALUE",
+    "value": 2384070,
+    "raw": "Счет: 2 384 070 руб.",
+    "elapsed_ms": 28.63500011153519
+  }
+]

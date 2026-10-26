@@ -1,0 +1,79 @@
+{
+  "documents": [
+    {
+      "utf8_bytes": 4845,
+      "sha256": "54F423E5641AA74EFB6B7A63CE3D4F737434475DC8B7DFDAFA3F07899C749E15",
+      "path": "AGENTS.md",
+      "lines": 53
+    },
+    {
+      "utf8_bytes": 8524,
+      "sha256": "A9B0F6512E652CE9B1F4046D610BA12EDA9D51FAC5CD6D5830339A03106DA086",
+      "path": "README.md",
+      "lines": 106
+    },
+    {
+      "utf8_bytes": 284,
+      "sha256": "C5193F72F497B05A49756A03D265F3E4C883F2E8DA096836F8C7C224F05287F9",
+      "path": "README_BOT.md",
+      "lines": 5
+    },
+    {
+      "utf8_bytes": 5597,
+      "sha256": "BFEAC27997266AC99C7C26B080FA3ED4545B875B5B966CFD95CAD58DF38A7903",
+      "path": "DEVELOPMENT_PLAN.md",
+      "lines": 55
+    },
+    {
+      "utf8_bytes": 8903,
+      "sha256": "9BD44A46ECF9DB8754C4DB297290B351E68C925D320B32F30D2E1D376498E9FC",
+      "path": "docs\\ARCHITECTURE.md",
+      "lines": 99
+    },
+    {
+      "utf8_bytes": 8982,
+      "sha256": "4D003D98465B9144E44167E3910D8FCA845E8655D635DC3ABA86AC72F9108CA5",
+      "path": "docs\\OCR.md",
+      "lines": 93
+    },
+    {
+      "utf8_bytes": 7383,
+      "sha256": "A5228B51F51ED1EDA92DE41C3045217F1A8CAB9DA549C8BA462D986203C92444",
+      "path": "docs\\TESTING.md",
+      "lines": 86
+    },
+    {
+      "utf8_bytes": 13344,
+      "sha256": "B041A0E242FE70883F409375881FA153D8718BFA66275D33E888234364346A42",
+      "path": "benchmarks\\README.md",
+      "lines": 142
+    }
+  ],
+  "primary_project": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot",
+  "instructions": {
+    "exact_token_count": "not measured; UTF-8 bytes and lines reported",
+    "root_plus_forwarder_utf8_bytes": 5333,
+    "root_utf8_bytes": 4845,
+    "added_nested_agents": 0,
+    "added_repo_skills": 0,
+    "forwarder_lines": 5,
+    "root_lines": 53,
+    "forwarder_utf8_bytes": 488
+  },
+  "broken_links": [],
+  "local_links_checked": 49,
+  "checked_utc": "2026-10-14T16:22:43.7553436Z",
+  "checks": {
+    "benchmark_tests": 12,
+    "integration_report": "integration-post-transfer-verified.json",
+    "total_tests": 56,
+    "gui_entry_point": "constructed and closed without capture/input",
+    "protected_files": "unchanged",
+    "ocr_code_hashes": "match verified run",
+    "cli_replay": "passed with temporary empty catalog",
+    "bot_unit_validation_and_tk": 24,
+    "live_game": "not tested",
+    "builder_tests": 20,
+    "verified_integration_exit_code": 0
+  }
+}

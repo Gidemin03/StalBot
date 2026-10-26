@@ -1,0 +1,702 @@
+{
+  "python": "3.12.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.5.4",
+    "pillow": "12.3.0",
+    "opencv-python-headless": "5.0.0.93",
+    "opencv-python": null,
+    "rapidocr": "3.10.0",
+    "onnxruntime-directml": "1.24.4",
+    "tesserocr": "2.11.0"
+  },
+  "parsed_python_files": 84,
+  "source": {
+    "main.py": {
+      "sha256": "e8a94dff90db764b4e1eafd22de6a7954ed6dddb214f4341e3e32d7c26c61b9a",
+      "lines": 74,
+      "lines_over_120": 5,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "stalbot/__init__.py": {
+      "sha256": "a7fe8756a7b05aeecd0492c03006c623ec9989c4a4934eb7bae3ab5e27c6ba81",
+      "lines": 1,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "stalbot/balance.py": {
+      "sha256": "b4b222e271125945a58e09fed483234029ae04e35a55db0b09ced40d9ae47084",
+      "lines": 64,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "stalbot/cache_storage.py": {
+      "sha256": "1f207362755fa3a5f03b2830d8c3d21049e3eef4c2e01e0940ff6471c1fbeabb",
+      "lines": 348,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "stalbot/config.py": {
+      "sha256": "f199028df3e007d62c47ccf6c5f52620a6f2bfff1856560ed0869d84b0c8f7f0",
+      "lines": 84,
+      "lines_over_120": 2,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "stalbot/date_picker.py": {
+      "sha256": "151700d585c373e94cc7b56870cffa1e0431fce8fb9b4fb253db98dd4abf357b",
+      "lines": 96,
+      "lines_over_120": 0,
+      "semicolon_lines": 18,
+      "functions_over_80_lines": []
+    },
+    "stalbot/domain.py": {
+      "sha256": "bb3abbc635c15b40fecbc9b2f7038c84bcc478c52ecd635ec9d9728d2d0d4ced",
+      "lines": 139,
+      "lines_over_120": 1,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "stalbot/hotkeys.py": {
+      "sha256": "e666d3abb6383f824be9aca8fc0ce8b1ee1ffcb5aaadc5bdb33963a630aa7cdf",
+      "lines": 107,
+      "lines_over_120": 0,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "stalbot/interface.py": {
+      "sha256": "b2600df0c6a30e56f19a9cb80fa8f9edb9352be968aed9f5ad3073b63e757f5f",
+      "lines": 48,
+      "lines_over_120": 0,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "stalbot/name_cache.py": {
+      "sha256": "1f547c43f494757b47ece036d4a32b8a02371cbe6ae619456bdf6f8a4cb004d4",
+      "lines": 198,
+      "lines_over_120": 0,
+      "semicolon_lines": 4,
+      "functions_over_80_lines": []
+    },
+    "stalbot/ocr_session.py": {
+      "sha256": "90f6ae38c13fe9b4fb9727d4e4155563f8130cf86d1d3b2bab0983ba9744a89b",
+      "lines": 125,
+      "lines_over_120": 0,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "stalbot/reader_factory.py": {
+      "sha256": "212d3a59b48c075fd4ef1b57786c189914c19b9480ac325be98a7ff65473ef40",
+      "lines": 14,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "stalbot/runner.py": {
+      "sha256": "d031bce5566e538dd9c1569dc07da9448002b6e45ed2f26315838122af7520ef",
+      "lines": 626,
+      "lines_over_120": 18,
+      "semicolon_lines": 53,
+      "functions_over_80_lines": [
+        {
+          "name": "_fresh",
+          "line": 226,
+          "lines": 168
+        },
+        {
+          "name": "_purchase",
+          "line": 409,
+          "lines": 122
+        },
+        {
+          "name": "run",
+          "line": 532,
+          "lines": 95
+        }
+      ]
+    },
+    "stalbot/scanner.py": {
+      "sha256": "c98936b9d71e4159c0462a4295ac5eaabbfec75c296bcfd3ca3dc4f2c5a14997",
+      "lines": 87,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "stalbot/search.py": {
+      "sha256": "23e2010c5e13a8901820edf741928d96274170629fba8b12ac83d8c9504d0500",
+      "lines": 39,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "stalbot/session_clock.py": {
+      "sha256": "d205149dc65b4c65ee307c5d560b6b5637a070f6356965d26df3901e6e1f8832",
+      "lines": 28,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "stalbot/storage.py": {
+      "sha256": "4a90294f5c9d2351d042cd48f2cdc7f2b02335db26d86dae3720531724e26de0",
+      "lines": 200,
+      "lines_over_120": 17,
+      "semicolon_lines": 16,
+      "functions_over_80_lines": []
+    },
+    "stalbot/ui.py": {
+      "sha256": "40c5df44b2bde4984e12d869e5b0d213dd3ad34989d4844f11a8499e458a9a92",
+      "lines": 647,
+      "lines_over_120": 72,
+      "semicolon_lines": 91,
+      "functions_over_80_lines": [
+        {
+          "name": "poll",
+          "line": 417,
+          "lines": 84
+        }
+      ]
+    },
+    "stalbot/vision.py": {
+      "sha256": "dccc3d029c1416b330d869210491756fc2e717896a790fd8273182666cad640a",
+      "lines": 268,
+      "lines_over_120": 1,
+      "semicolon_lines": 5,
+      "functions_over_80_lines": []
+    },
+    "stalbot/windows.py": {
+      "sha256": "40c0f9e40558789203d4765c119e44573ba282d440292d952191aa8b0ddf660c",
+      "lines": 298,
+      "lines_over_120": 0,
+      "semicolon_lines": 17,
+      "functions_over_80_lines": []
+    },
+    "tests/test_auto_balance.py": {
+      "sha256": "89817433f9ef7a313caf144d8c08a5ab1be93365e5b6a12cad6d7d6dee9bc6af",
+      "lines": 239,
+      "lines_over_120": 2,
+      "semicolon_lines": 17,
+      "functions_over_80_lines": []
+    },
+    "tests/test_background_click_probe.py": {
+      "sha256": "e59f53be96495c4fcbe9af838fdcefcb4cb757997bb30870804c7b9bf98d93d7",
+      "lines": 117,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "tests/test_background_desktop.py": {
+      "sha256": "3b9bec66a4f4d5be2bdcdbcf3cb3d753545e1b3baf36a96ad8d789d813bf62ed",
+      "lines": 190,
+      "lines_over_120": 1,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": []
+    },
+    "tests/test_background_purchase.py": {
+      "sha256": "119aec1d21ec4b3173552c9f2691be656b4c4cbbfad97f516d2d69e72de107c2",
+      "lines": 117,
+      "lines_over_120": 0,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": []
+    },
+    "tests/test_balance.py": {
+      "sha256": "483bfbc0852c5b8e7c6da2f6788aefef2776cee691372235ac7678ee7b17a6fa",
+      "lines": 85,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "tests/test_bot.py": {
+      "sha256": "8c78767cdecfbb8bbe85395ba021da76f6fabc923fbd87a1bcac639ec4a8ce38",
+      "lines": 376,
+      "lines_over_120": 11,
+      "semicolon_lines": 25,
+      "functions_over_80_lines": []
+    },
+    "tests/test_cache_storage.py": {
+      "sha256": "ef4de3b95d4bca30e03d1a29d88c52c19876ea987df9dc9d8d412e818af19025",
+      "lines": 395,
+      "lines_over_120": 0,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "tests/test_catalog_history.py": {
+      "sha256": "d84ea7a6b402953461b00f57fa4674ead6e8f5e90306e6af8b194986f774aa81",
+      "lines": 168,
+      "lines_over_120": 5,
+      "semicolon_lines": 18,
+      "functions_over_80_lines": []
+    },
+    "tests/test_config.py": {
+      "sha256": "8a90aa31586474e906311c952f268a60ea1ab2d668eed19746933e280359fd05",
+      "lines": 124,
+      "lines_over_120": 2,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "tests/test_date_picker.py": {
+      "sha256": "0bd46231190f5490e9040b5de140ef0d88687626544c572e5a8a20ba241f0b3a",
+      "lines": 54,
+      "lines_over_120": 0,
+      "semicolon_lines": 11,
+      "functions_over_80_lines": []
+    },
+    "tests/test_gpu_reader.py": {
+      "sha256": "da3f5d93e55138f34fc9a17f1ad0ed6ab3b792c53d92a8c80549cd66bfe78a65",
+      "lines": 172,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "tests/test_hotkeys.py": {
+      "sha256": "3faca8dc20cc162c61d34a1bab3b18d3d2d68380e1b87f2cf7895a837ddb45f9",
+      "lines": 136,
+      "lines_over_120": 0,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "tests/test_input_probe.py": {
+      "sha256": "2689875c5434d26b68d9a92f6a2807708249e6233f1dd8dfb187b7c8aa125172",
+      "lines": 328,
+      "lines_over_120": 4,
+      "semicolon_lines": 43,
+      "functions_over_80_lines": []
+    },
+    "tests/test_insufficient.py": {
+      "sha256": "25b913a9d4b5c851e56b219eba4e6b3be301c40c6f7d524cb58e7e378cf541d0",
+      "lines": 84,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "tests/test_name_cache.py": {
+      "sha256": "ee18b36b0e99eb03501d2d134bf606146e307a37db24bc51fbbba8398bb72386",
+      "lines": 321,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "tests/test_ocr_session.py": {
+      "sha256": "5ec089738406a6254fdd159a7c2261fe9186a29416cd3f5e30739cfe723734f2",
+      "lines": 306,
+      "lines_over_120": 0,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "tests/test_purchase_metrics.py": {
+      "sha256": "f7a07ea22db00f149532b52cebe3d1ad9fbdb0db5aeb6a2f75fa3b949bd48d29",
+      "lines": 68,
+      "lines_over_120": 2,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": []
+    },
+    "tests/test_purchase_options.py": {
+      "sha256": "c2c028be5d629d853214dc4496c12cb1716cc794d95d5b22fffe4b486df33c31",
+      "lines": 192,
+      "lines_over_120": 0,
+      "semicolon_lines": 4,
+      "functions_over_80_lines": []
+    },
+    "tests/test_recovery.py": {
+      "sha256": "e1e9378a0a09707f26a45ec1d725746989667e555d17baae430a3522d032ad21",
+      "lines": 206,
+      "lines_over_120": 0,
+      "semicolon_lines": 23,
+      "functions_over_80_lines": []
+    },
+    "tests/test_runner_cycle.py": {
+      "sha256": "00a8325f965b90ac61536ed06ee608880be4a44b0d51bfc34727bd34fd5d04c8",
+      "lines": 172,
+      "lines_over_120": 1,
+      "semicolon_lines": 23,
+      "functions_over_80_lines": []
+    },
+    "tests/test_search_interface.py": {
+      "sha256": "fa60e2bb449452a3c9ad187b9aff391503d4b178f368f5843f16fe8b85f0e0b3",
+      "lines": 146,
+      "lines_over_120": 1,
+      "semicolon_lines": 8,
+      "functions_over_80_lines": []
+    },
+    "tests/test_search_refresh.py": {
+      "sha256": "42a4f83c7491a8622ba50246deca497d344610e554664244bde8902a5e567699",
+      "lines": 323,
+      "lines_over_120": 0,
+      "semicolon_lines": 30,
+      "functions_over_80_lines": []
+    },
+    "tests/test_session_clock.py": {
+      "sha256": "e4a707e880daf15b1cf59eaf9325110a87af7680a3f55f5914b56ba1d778dee9",
+      "lines": 27,
+      "lines_over_120": 0,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": []
+    },
+    "tests/test_ui.py": {
+      "sha256": "322c777217db54e72f889845b2a3953aa90b56bf034147788b944943e12f5868",
+      "lines": 524,
+      "lines_over_120": 16,
+      "semicolon_lines": 90,
+      "functions_over_80_lines": []
+    },
+    "tests/test_validation.py": {
+      "sha256": "458e6ecafde06c7b8d678e23bd8a385e2e641a685da5efce7e376d74372877b7",
+      "lines": 130,
+      "lines_over_120": 1,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "tests/test_windows.py": {
+      "sha256": "e3cd830828fbc00b2a7046818e1db5bba9cd8f75c17fa036f69ef575aa520c20",
+      "lines": 340,
+      "lines_over_120": 2,
+      "semicolon_lines": 18,
+      "functions_over_80_lines": []
+    },
+    "tools/background_click_probe.py": {
+      "sha256": "2570123003f36d3eb6fad6d5f5c25fee9f16c741ecc25e9ac1b972427b78b867",
+      "lines": 189,
+      "lines_over_120": 0,
+      "semicolon_lines": 4,
+      "functions_over_80_lines": []
+    },
+    "tools/benchmark_search.py": {
+      "sha256": "cc027d7f3219624d0d5d0af612a84d214d6a5562e00e1a7ada6ff5329e7c07e2",
+      "lines": 363,
+      "lines_over_120": 22,
+      "semicolon_lines": 16,
+      "functions_over_80_lines": []
+    },
+    "tools/build_ui_assets.py": {
+      "sha256": "d96a462ffb81cfb239a545efef8abf75ee307fca055206933a05abb7c2ee6456",
+      "lines": 29,
+      "lines_over_120": 0,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "tools/validate_bot.py": {
+      "sha256": "bfe80b678533ee7534a6e0004a8bbf01fdf8cd269ef2343c205169f40ce930bb",
+      "lines": 296,
+      "lines_over_120": 16,
+      "semicolon_lines": 22,
+      "functions_over_80_lines": [
+        {
+          "name": "main",
+          "line": 128,
+          "lines": 166
+        }
+      ]
+    },
+    "tools/validate_name_cache.py": {
+      "sha256": "959924bbbd0364bb23d4ed5e8ccdcc1e5219ade4a0cb96bb57b27c2ff2a7abe1",
+      "lines": 140,
+      "lines_over_120": 0,
+      "semicolon_lines": 5,
+      "functions_over_80_lines": [
+        {
+          "name": "main",
+          "line": 22,
+          "lines": 116
+        }
+      ]
+    },
+    "dataset/builder.py": {
+      "sha256": "aad360774a5c2a1ed2c378d904dd22b99bc9dd7f6014cc6daeeb6be70fdaa754",
+      "lines": 388,
+      "lines_over_120": 3,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": [
+        {
+          "name": "__init__",
+          "line": 62,
+          "lines": 89
+        }
+      ]
+    },
+    "dataset/builder_core.py": {
+      "sha256": "3ff61419da8effe4f1dadc697ae74be42a46ac827a570a5702b781f47b4b7a95",
+      "lines": 256,
+      "lines_over_120": 0,
+      "semicolon_lines": 7,
+      "functions_over_80_lines": []
+    },
+    "dataset/check_geometry.py": {
+      "sha256": "48ad705bcecf85644fe76f92f91bc30918271f81e85774843c59598151b0d791",
+      "lines": 55,
+      "lines_over_120": 0,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "dataset/test_builder.py": {
+      "sha256": "68df7c38bbf67afc5c86eee70aa3b8179ce6c32758ec01b5b7daf9db43ce7d3e",
+      "lines": 305,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/audit_dataset.py": {
+      "sha256": "5e7dce3e8f96bd13c24b189ab9af2f698187eff365fe9299b807c7b76dbcc975",
+      "lines": 56,
+      "lines_over_120": 1,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/benchmark.py": {
+      "sha256": "d81b0ea3fa3fd184d9c7de88e3f2b84147d504d0bc6f0a52e02f0e84a335e130",
+      "lines": 302,
+      "lines_over_120": 13,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/candidate_pipeline.py": {
+      "sha256": "733d907c9268c723f93e6effa75a0d28b97c534b3f94783bb4a77fdbbdd28bcf",
+      "lines": 110,
+      "lines_over_120": 5,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/checkpoint.py": {
+      "sha256": "c75fd5ca26ff052e79ba9455f24abd3ec147b01af42b64b4fa9bd4a453d6721a",
+      "lines": 89,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/engines.py": {
+      "sha256": "4202b861212eea8442e3f4b29ee3b3de48a4a76b6f5c30a894d9750f82140f90",
+      "lines": 115,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/field_experiments.py": {
+      "sha256": "26ccf84fa7e3c38159b5dcdb9801cb5fe244df1ed1594f759f11e450584e2459",
+      "lines": 238,
+      "lines_over_120": 6,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/field_report.py": {
+      "sha256": "8e1dec2f28b662baf2cb1145466b79bec87f859c866d2e61bf1aae9fecdb6796",
+      "lines": 110,
+      "lines_over_120": 15,
+      "semicolon_lines": 10,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/optimization_cache.py": {
+      "sha256": "2d9ba822881cc939aadb38b8d385da058fe6467b2c8ee0e7cb179b4aa755db14",
+      "lines": 630,
+      "lines_over_120": 15,
+      "semicolon_lines": 13,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/optimization_capture.py": {
+      "sha256": "7b273d1254bf126da46df939e79a86f0e33fa2ecf7f41a333a20f5c373a7b583",
+      "lines": 198,
+      "lines_over_120": 5,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/optimization_combinations.py": {
+      "sha256": "4cc70baaedfaa04c6aedf3f9d25f70a919b1b4aff451e201173736294f0b86cf",
+      "lines": 107,
+      "lines_over_120": 2,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/optimization_devices.py": {
+      "sha256": "75ea10545fa2403551e007b223b1a09d1e2192ea5bd60bd3f5ee288a8e6fad37",
+      "lines": 555,
+      "lines_over_120": 3,
+      "semicolon_lines": 19,
+      "functions_over_80_lines": [
+        {
+          "name": "main",
+          "line": 400,
+          "lines": 152
+        }
+      ]
+    },
+    "benchmarks/optimization_devices_inspect.py": {
+      "sha256": "9d09ab3ebf607c631ccef52058451e08d5fe387bc6c28a030ee1ff49d112ec2c",
+      "lines": 108,
+      "lines_over_120": 1,
+      "semicolon_lines": 3,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/optimization_devices_isolated.py": {
+      "sha256": "5405519d0255aad7e14df0e8bae328685ef02f63dea061f4bba412fbfaf3831a",
+      "lines": 197,
+      "lines_over_120": 3,
+      "semicolon_lines": 6,
+      "functions_over_80_lines": [
+        {
+          "name": "main",
+          "line": 30,
+          "lines": 164
+        }
+      ]
+    },
+    "benchmarks/optimization_pipeline.py": {
+      "sha256": "d6149c9cf97c5f404b26cf4953024e8eae1d823c409247d5a78e47b28b82dae6",
+      "lines": 294,
+      "lines_over_120": 8,
+      "semicolon_lines": 10,
+      "functions_over_80_lines": [
+        {
+          "name": "scan",
+          "line": 42,
+          "lines": 105
+        }
+      ]
+    },
+    "benchmarks/optimization_secondary.py": {
+      "sha256": "9880015f75781420e2fe0719fa28ae5dedc36ebccd41b8a062b96a5739caafcc",
+      "lines": 446,
+      "lines_over_120": 29,
+      "semicolon_lines": 16,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/optimization_streams.py": {
+      "sha256": "7d8ea46a2d89935b086becb12f4cb4d6d7a084d97f2ab10b066b2717abeedd80",
+      "lines": 89,
+      "lines_over_120": 2,
+      "semicolon_lines": 4,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/profile_runtime.py": {
+      "sha256": "b0d6e3ded1245abf9cdb86e5347140570176f146a392bcb6a79ce0072e375657",
+      "lines": 99,
+      "lines_over_120": 3,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/regrade.py": {
+      "sha256": "beb7c33eeffd5956c3c4069c58ee448314c2d8f34269c33ddc3eb61846b55eb7",
+      "lines": 41,
+      "lines_over_120": 2,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/report.py": {
+      "sha256": "bc97a88c34c38ea40a5242093636e365fca7a9545105e454debff130e9d20559",
+      "lines": 98,
+      "lines_over_120": 18,
+      "semicolon_lines": 9,
+      "functions_over_80_lines": [
+        {
+          "name": "main",
+          "line": 12,
+          "lines": 84
+        }
+      ]
+    },
+    "benchmarks/test_benchmark.py": {
+      "sha256": "677158bad551b5c790e3b94d7d8f8738de34d14156d6ffd06942f1120b7c6eb7",
+      "lines": 38,
+      "lines_over_120": 1,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_checkpoint.py": {
+      "sha256": "8f4b22aa21870e0a4f8bfec2e069b88f6162b3dd97d76b534d2f5e3788316b33",
+      "lines": 40,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_fields.py": {
+      "sha256": "6b5889814edcdf8ab115607bf4b1b93d97e7b16ccc7684c9eb6288260ae12425",
+      "lines": 27,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_optimization_cache.py": {
+      "sha256": "6b03fc908f0164c568ad04e4ce85d71a70ac60e40d5a12e3a269d63eebe99d07",
+      "lines": 221,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_optimization_capture.py": {
+      "sha256": "6f1d6c2f0c17de8f3b2d82bb359a1f9176f157061c55844107870b4a2072bd02",
+      "lines": 17,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_optimization_devices.py": {
+      "sha256": "e8cebb6ebacb6909a6415e9ae5899fc71469a4d5e533330a50900c6d3a275299",
+      "lines": 111,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_optimization_devices_isolated.py": {
+      "sha256": "c57b385d44791044ec2a6e5419779da51910c44e93c66ea744cacdddfcf9ca38",
+      "lines": 74,
+      "lines_over_120": 0,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_optimization_pipeline.py": {
+      "sha256": "30ef1680693228363bf28638a8181a64cfec4591e272e21f198b069eb8a464f8",
+      "lines": 187,
+      "lines_over_120": 2,
+      "semicolon_lines": 2,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_optimization_secondary.py": {
+      "sha256": "5e0fd54f9ba38397e06a4047ca78e868b06aeb9fdde366c5b7db13c2cbc11747",
+      "lines": 81,
+      "lines_over_120": 1,
+      "semicolon_lines": 1,
+      "functions_over_80_lines": []
+    },
+    "benchmarks/test_pipeline.py": {
+      "sha256": "4fb3710e50e7cf0e54e7c2f4bab4e30cb8f0312b069412d34e23d805692c38f2",
+      "lines": 27,
+      "lines_over_120": 0,
+      "semicolon_lines": 0,
+      "functions_over_80_lines": []
+    }
+  },
+  "docs_missing_links": [],
+  "docs_case_mismatches": [],
+  "git_checkout_present": false,
+  "integration": {
+    "rows": 170,
+    "labels_sha256": "20de6ed3e416fe9bea5e5ff614e7f9dc194978a4e79b5199108f9ffac94465d1",
+    "names": {
+      "1": 170,
+      "3": 170,
+      "9": 170
+    },
+    "color_correct": 170,
+    "numeric": {
+      "quantity": {
+        "accepted": 53,
+        "correct": 53,
+        "semantic_correct": 169,
+        "value_n": 54,
+        "value_correct": 53,
+        "dangerous": 0
+      },
+      "buyout": {
+        "accepted": 146,
+        "correct": 158,
+        "semantic_correct": 158,
+        "value_n": 153,
+        "value_correct": 146,
+        "dangerous": 0
+      }
+    },
+    "cache_scanner_checks": 612,
+    "cache_scanner_all_equal": true
+  },
+  "integration_source_hashes_match_current": true
+}

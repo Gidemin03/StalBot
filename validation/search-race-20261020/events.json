@@ -1,0 +1,185 @@
+[
+  {
+    "created": "2026-10-19T11:08:33.318051+00:00",
+    "mode": "purchase_timing",
+    "payload": {
+      "purchase_timings": {
+        "origin": "cycle",
+        "click_mode": "background",
+        "buy_call_ms": 825.7939000613987,
+        "buy_pressed_ms": 836.3222000189126,
+        "result_observed_ms": 1110.9742000699043,
+        "buy_to_result_ms": 274.6520000509918,
+        "captures_ms": 65.91539992950857,
+        "reread_ms": 21.901699947193265,
+        "selection_click_ms": 21.121100056916475,
+        "menu_wait_ms": 123.16840002313256,
+        "buy_click_ms": 31.364399939775467,
+        "mouse": {
+          "started_at": 1063713.6859893,
+          "down_sent_at": 1063713.6965109,
+          "released_at": 1063713.7173452,
+          "move_ms": 10.521600022912025,
+          "hold_ms": 20.83429996855557,
+          "total_ms": 31.355899991467595
+        },
+        "result_wait_ms": 253.77839989960194,
+        "purchase_total_ms": 1427.4424000177532
+      },
+      "cycle_timings": {
+        "snapshot_ms": 458.28710007481277,
+        "interface_ms": 0.000200001522898674,
+        "budget_ms": 1.837699906900525,
+        "scan": {
+          "name_ms": 0.1556000206619501,
+          "quantity_ms": 6.345000118017197,
+          "buyout_ms": 45.73480016551912,
+          "evaluation_ms": 4.184100078418851,
+          "total_ms": 56.64300010539591
+        },
+        "decision_ms": 516.782799968496,
+        "search": {
+          "initial_capture_ms": 30.342199839651585,
+          "initial_check_ms": 25.088399881497025,
+          "click_ms": 20.686799893155694,
+          "wait_ms": 0.0,
+          "captures_ms": 256.4060997683555,
+          "checks_ms": 1.8108005169779062,
+          "ui_checks_ms": 22.345999954268336,
+          "poll_sleep_ms": 92.30880020186305,
+          "capture_max_ms": 35.944300005212426,
+          "captures": 9,
+          "comparisons": 17,
+          "first_change_ms": 265.99999982863665,
+          "stable_ms": 375.0,
+          "mouse": {
+            "started_at": 1063712.9245597,
+            "down_sent_at": 1063712.9349874,
+            "released_at": 1063712.9452393,
+            "move_ms": 10.427699889987707,
+            "hold_ms": 10.251899948343635,
+            "total_ms": 20.67959983833134
+          },
+          "total_ms": 450.92059997841716,
+          "capture_avg_ms": 28.489566640928388,
+          "unchanged_searches": 3
+        }
+      },
+      "search_timings": {
+        "initial_capture_ms": 30.342199839651585,
+        "initial_check_ms": 25.088399881497025,
+        "click_ms": 20.686799893155694,
+        "wait_ms": 0.0,
+        "captures_ms": 256.4060997683555,
+        "checks_ms": 1.8108005169779062,
+        "ui_checks_ms": 22.345999954268336,
+        "poll_sleep_ms": 92.30880020186305,
+        "capture_max_ms": 35.944300005212426,
+        "captures": 9,
+        "comparisons": 17,
+        "first_change_ms": 265.99999982863665,
+        "stable_ms": 375.0,
+        "mouse": {
+          "started_at": 1063712.9245597,
+          "down_sent_at": 1063712.9349874,
+          "released_at": 1063712.9452393,
+          "move_ms": 10.427699889987707,
+          "hold_ms": 10.251899948343635,
+          "total_ms": 20.67959983833134
+        },
+        "total_ms": 450.92059997841716,
+        "capture_avg_ms": 28.489566640928388,
+        "unchanged_searches": 3
+      },
+      "mode": "live"
+    }
+  },
+  {
+    "created": "2026-10-19T11:08:34.505615+00:00",
+    "mode": "purchase_timing",
+    "payload": {
+      "purchase_timings": {
+        "origin": "cycle",
+        "click_mode": "background",
+        "buy_call_ms": null,
+        "buy_pressed_ms": null,
+        "result_observed_ms": null,
+        "buy_to_result_ms": null,
+        "captures_ms": 38.459100062027574,
+        "reread_ms": 18.659499939531088,
+        "selection_click_ms": 31.801699893549085,
+        "menu_wait_ms": 145.9853001870215,
+        "buy_click_ms": 0.0,
+        "skip_reason": "Выбранный лот изменился",
+        "skip_diagnostic": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\data\\diagnostics\\skipped-02b2995f9689405189c4cd81dbbfee6a",
+        "purchase_total_ms": 829.7153001185507
+      },
+      "cycle_timings": {
+        "snapshot_ms": 262.3134001623839,
+        "interface_ms": 0.000400003045797348,
+        "budget_ms": 4.718299955129623,
+        "scan": {
+          "name_ms": 0.4936999175697565,
+          "quantity_ms": 10.39579976350069,
+          "buyout_ms": 59.849899960681796,
+          "evaluation_ms": 4.03879932127893,
+          "total_ms": 74.9811998102814
+        },
+        "decision_ms": 342.0258001424372,
+        "search": {
+          "initial_capture_ms": 34.81230000033975,
+          "initial_check_ms": 29.971199808642268,
+          "click_ms": 32.169200014322996,
+          "wait_ms": 0.0,
+          "captures_ms": 98.94190006889403,
+          "checks_ms": 3.948000492528081,
+          "ui_checks_ms": 31.225400045514107,
+          "poll_sleep_ms": 21.443199831992388,
+          "capture_max_ms": 36.166599951684475,
+          "captures": 3,
+          "comparisons": 5,
+          "first_change_ms": 30.999999959021807,
+          "stable_ms": 155.9999999590218,
+          "mouse": {
+            "started_at": 1063714.8962311,
+            "down_sent_at": 1063714.9174927,
+            "released_at": 1063714.9283928,
+            "move_ms": 21.261600079014897,
+            "hold_ms": 10.90009999461472,
+            "total_ms": 32.16170007362962
+          },
+          "total_ms": 253.10869980603456,
+          "capture_avg_ms": 32.98063335629801,
+          "unchanged_searches": 3
+        }
+      },
+      "search_timings": {
+        "initial_capture_ms": 34.81230000033975,
+        "initial_check_ms": 29.971199808642268,
+        "click_ms": 32.169200014322996,
+        "wait_ms": 0.0,
+        "captures_ms": 98.94190006889403,
+        "checks_ms": 3.948000492528081,
+        "ui_checks_ms": 31.225400045514107,
+        "poll_sleep_ms": 21.443199831992388,
+        "capture_max_ms": 36.166599951684475,
+        "captures": 3,
+        "comparisons": 5,
+        "first_change_ms": 30.999999959021807,
+        "stable_ms": 155.9999999590218,
+        "mouse": {
+          "started_at": 1063714.8962311,
+          "down_sent_at": 1063714.9174927,
+          "released_at": 1063714.9283928,
+          "move_ms": 21.261600079014897,
+          "hold_ms": 10.90009999461472,
+          "total_ms": 32.16170007362962
+        },
+        "total_ms": 253.10869980603456,
+        "capture_avg_ms": 32.98063335629801,
+        "unchanged_searches": 3
+      },
+      "mode": "live"
+    }
+  }
+]

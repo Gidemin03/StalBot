@@ -1,0 +1,9 @@
+# Tested on CPython 3.12, Windows x64. Uses existing local model weights.
+# CPU is the default; optional GPU NAME OCR uses DirectML explicitly.
+# Numeric OCR remains on CPU in both modes.
+numpy==2.5.4
+pillow==12.3.0
+opencv-python-headless==5.0.0.93
+rapidocr==3.10.0
+onnxruntime-directml==1.24.4
+tesserocr @ https://github.com/simonflueckiger/tesserocr-windows_build/releases/download/tesserocr-v2.11.0-tesseract-5.5.3/tesserocr-2.11.0-cp312-cp312-win_amd64.whl#sha256=74604b65547b6e988dcdab0d6d7366964ec588a9fd28a526b2ca9b9f8b8d3dea

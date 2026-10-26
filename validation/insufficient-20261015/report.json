@@ -1,0 +1,92 @@
+{
+  "source": {
+    "file": "source.png",
+    "size": [
+      1915,
+      1079
+    ],
+    "sha256": "ccd4c9e6f85342fc6bca36950e8bda7873c080539ecf6d3ea9ccbd47996c0307"
+  },
+  "template": {
+    "file": "assets/ui/insufficient.png",
+    "box": [
+      802,
+      506,
+      1120,
+      530
+    ],
+    "sha256": "7e0eb0dbfcbe6fb07b65d6922456fa4446208aeb4dd6c01a2ff20800e31521d1"
+  },
+  "threshold": 0.95,
+  "roi": [
+    730,
+    430,
+    1190,
+    650
+  ],
+  "screenshots": {
+    "source.png": {
+      "sha256": "ccd4c9e6f85342fc6bca36950e8bda7873c080539ecf6d3ea9ccbd47996c0307",
+      "outcome": "INSUFFICIENT",
+      "scores": {
+        "success": 0.30400365591049194,
+        "unavailable": 0.44025084376335144,
+        "insufficient": 1.0
+      }
+    },
+    "2 Скриншот с меню покупки.png": {
+      "sha256": "52aa60f3fec6dd96afbd4ef562bbe9f7a0ff87f2d46917b42987a4a9b7a319d3",
+      "outcome": null,
+      "scores": {
+        "success": 0.23242062330245972,
+        "unavailable": 0.32250380516052246,
+        "insufficient": 0.27451589703559875
+      }
+    },
+    "3 скриншот с меню покупки.png": {
+      "sha256": "d20a84b0e11f8b68652743de53d0fc7498974643d3193f57ddc6cb686052d91f",
+      "outcome": null,
+      "scores": {
+        "success": 0.23173929750919342,
+        "unavailable": 0.32250380516052246,
+        "insufficient": 0.27481964230537415
+      }
+    },
+    "Обычный скриншот.png": {
+      "sha256": "902e40ddfab93603fb634f24f6017ddda6f5d10c82b0b8910e8048cd6c8a3c30",
+      "outcome": null,
+      "scores": {
+        "success": 0.18439601361751556,
+        "unavailable": 0.23055198788642883,
+        "insufficient": 0.20752838253974915
+      }
+    },
+    "Скриншот с меню покупки.png": {
+      "sha256": "3a919e55dcbbb34a14dffc55771bc2977715b7bd49daa18677a5d9552a03ffd4",
+      "outcome": null,
+      "scores": {
+        "success": 0.18423305451869965,
+        "unavailable": 0.2366255670785904,
+        "insufficient": 0.20342355966567993
+      }
+    },
+    "Скриншот уведомления о том что предмет выкуплен.png": {
+      "sha256": "6cb10ddaa948ffb44db5458527524aae4bc148b29c6087747902e4771d309914",
+      "outcome": "UNAVAILABLE",
+      "scores": {
+        "success": 0.2744651138782501,
+        "unavailable": 1.0,
+        "insufficient": 0.4010765552520752
+      }
+    },
+    "Скриншот успешной покупки.png": {
+      "sha256": "f9af5d7afb40442948fe4ec09bc3e6e21883a651135a8ff8774a878b69b9a707",
+      "outcome": "SUCCESS",
+      "scores": {
+        "success": 1.0,
+        "unavailable": 0.4426405131816864,
+        "insufficient": 0.4429793953895569
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "providers": [
+    "DmlExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "node_events": {
+    "DmlExecutionProvider": 298,
+    "CPUExecutionProvider": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "exploratory_selection_requires_independent_validation",
+  "threads": 2,
+  "name": {"engine": "rapid_cpu", "variant": "line3", "dedicated_upgrade_ocr": false},
+  "buyout": {"engine": "tesseract", "variant": "otsu3"},
+  "quantity": {
+    "status": "conservative_candidate_requires_independent_validation",
+    "presence_gate": "quantity_presence geometry",
+    "engine": "tesseract",
+    "variant": "white3",
+    "empty_result_state": "AMBIGUOUS",
+    "effective_quantity_when_ambiguous": 1
+  },
+  "price_fallback_enabled": false,
+  "implementation": "candidate_pipeline.CandidateReader",
+  "automatic_trading_ready": false
+}

@@ -1,0 +1,318 @@
+{
+  "mode": "replay",
+  "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png",
+  "batch": 1,
+  "group_size": 9,
+  "selection_metric": "roi",
+  "timings": {
+    "scan": {
+      "name_ms": 514.2994999187067,
+      "quantity_ms": 27.96059986576438,
+      "buyout_ms": 143.6352002201602,
+      "evaluation_ms": 2.552999882027507,
+      "total_ms": 688.968800008297
+    }
+  },
+  "elapsed_ms": 688.968800008297,
+  "chosen_row": 4,
+  "rows": [
+    {
+      "row": 0,
+      "identity": {
+        "name": "Медь",
+        "color": "green",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Медь",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "green",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 1
+      },
+      "quantity": {
+        "state": "AMBIGUOUS",
+        "value": null,
+        "raw": ""
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 5000,
+        "raw": "5 000 рублей"
+      },
+      "effective_quantity": 1,
+      "profit": "9495000.00",
+      "roi_percent": "189900.00",
+      "elapsed_ms": 321.16459985263646
+    },
+    {
+      "row": 1,
+      "identity": {
+        "name": "Ключ от заводского сейфа",
+        "color": "purple",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Ключ от заводского сейфа",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "purple",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 2
+      },
+      "quantity": {
+        "state": "AMBIGUOUS",
+        "value": null,
+        "raw": ""
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 230000,
+        "raw": "230 000 рублей"
+      },
+      "effective_quantity": 1,
+      "profit": "9270000.00",
+      "roi_percent": "4030.43",
+      "elapsed_ms": 59.97539998497814
+    },
+    {
+      "row": 2,
+      "identity": {
+        "name": "Янтарник",
+        "color": "red",
+        "upgrade": 15,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Янтарник",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "red",
+        "upgrade": 15,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 3
+      },
+      "quantity": {
+        "state": "AMBIGUOUS",
+        "value": null,
+        "raw": ""
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 4777777,
+        "raw": "4 777 777 рублей"
+      },
+      "effective_quantity": 1,
+      "profit": "4722223.00",
+      "roi_percent": "98.84",
+      "elapsed_ms": 38.387299864552915
+    },
+    {
+      "row": 3,
+      "identity": {
+        "name": "Полимеры",
+        "color": "green",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Полимеры",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "green",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 4
+      },
+      "quantity": {
+        "state": "VALUE",
+        "value": 5,
+        "raw": "5"
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 9989,
+        "raw": "9 989 рублей"
+      },
+      "effective_quantity": 5,
+      "profit": "47490011.00",
+      "roi_percent": "475423.08",
+      "elapsed_ms": 44.68920000363141
+    },
+    {
+      "row": 4,
+      "identity": {
+        "name": "Ледяной ежик",
+        "color": "green",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Ледяной ежик",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "green",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 5
+      },
+      "quantity": {
+        "state": "AMBIGUOUS",
+        "value": null,
+        "raw": ""
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 60000,
+        "raw": "60 000 рублей"
+      },
+      "effective_quantity": 1,
+      "profit": "9440000.00",
+      "roi_percent": "15733.33",
+      "elapsed_ms": 43.32330008037388
+    },
+    {
+      "row": 5,
+      "identity": {
+        "name": "Ключ от заводского сейфа",
+        "color": "purple",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Ключ от заводского сейфа",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "purple",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 2
+      },
+      "quantity": {
+        "state": "AMBIGUOUS",
+        "value": null,
+        "raw": ""
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 230000,
+        "raw": "230 000 рублей"
+      },
+      "effective_quantity": 1,
+      "profit": "9270000.00",
+      "roi_percent": "4030.43",
+      "elapsed_ms": 47.784300055354834
+    },
+    {
+      "row": 6,
+      "identity": {
+        "name": "Колба с раствором",
+        "color": "blue",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Колба с раствором",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "blue",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 6
+      },
+      "quantity": {
+        "state": "VALUE",
+        "value": 50,
+        "raw": "50"
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 140000,
+        "raw": "140 000 рублей"
+      },
+      "effective_quantity": 50,
+      "profit": "474860000.00",
+      "roi_percent": "339185.71",
+      "elapsed_ms": 45.799799845553935
+    },
+    {
+      "row": 7,
+      "identity": {
+        "name": "Смазочные материалы",
+        "color": "blue",
+        "upgrade": 0,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "eligible",
+      "rule": {
+        "name": "Смазочные материалы",
+        "buy_unit": 5000000,
+        "sell_unit": 10000000,
+        "color": "blue",
+        "upgrade": 0,
+        "max_stack": null,
+        "enabled": 1,
+        "id": 7
+      },
+      "quantity": {
+        "state": "VALUE",
+        "value": 10,
+        "raw": "10"
+      },
+      "buyout": {
+        "state": "VALUE",
+        "value": 72222,
+        "raw": "72 222 рубля"
+      },
+      "effective_quantity": 10,
+      "profit": "94927778.00",
+      "roi_percent": "131438.87",
+      "elapsed_ms": 63.512800028547645
+    },
+    {
+      "row": 8,
+      "identity": {
+        "name": "Alpine TPG-1",
+        "color": "purple",
+        "upgrade": null,
+        "truncated": false,
+        "valid": true
+      },
+      "reason": "unknown_variant",
+      "rule": null,
+      "quantity": null,
+      "buyout": null,
+      "effective_quantity": null,
+      "profit": null,
+      "roi_percent": null,
+      "elapsed_ms": 23.980900063179433
+    }
+  ]
+}

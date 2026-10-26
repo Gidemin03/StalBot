@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "source": "integration.json; reviewed 170-lot snapshot, 2026-10-14",
+  "labels_sha256": "20de6ed3e416fe9bea5e5ff614e7f9dc194978a4e79b5199108f9ffac94465d1",
+  "rows": 170,
+  "numeric": {
+    "quantity": {
+      "value_n": 54,
+      "minimum_value_correct": 53,
+      "minimum_correct": 53,
+      "minimum_semantic_correct": 169
+    },
+    "buyout": {
+      "value_n": 153,
+      "minimum_value_correct": 146,
+      "minimum_correct": 158,
+      "minimum_semantic_correct": 158
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "easy\\craft_mlt_25k.pth": {
+    "sha256": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17",
+    "bytes": 83152330
+  },
+  "easy\\cyrillic_g2.pth": {
+    "sha256": "48d0f3b58f28aa64651ab1032cc2d498c4de25135829668e87c14e7a07529f29",
+    "bytes": 15256523
+  },
+  "rapid\\cyrillic_PP-OCRv3_rec_mobile.onnx": {
+    "sha256": "1efb65bdc460af1c0e8733d005b20952b17ca5aac10ddb56c968333791c5eaa3",
+    "bytes": 8972413
+  },
+  "rapid\\cyrillic_PP-OCRv5_rec_mobile.onnx": {
+    "sha256": "90f761b4bfcce0c8c561c0cb5c887b0971d3ec01c32164bdf7374a35b0982711",
+    "bytes": 8074092
+  },
+  "rapid\\en_PP-OCRv4_rec_mobile.onnx": {
+    "sha256": "e8770c967605983d1570cdf5352041dfb68fa0c21664f49f47b155abd3e0e318",
+    "bytes": 7653044
+  },
+  "rapid\\en_PP-OCRv5_rec_mobile.onnx": {
+    "sha256": "c3461add59bb4323ecba96a492ab75e06dda42467c9e3d0c18db5d1d21924be8",
+    "bytes": 7872351
+  },
+  "tessdata\\eng.traineddata": {
+    "sha256": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+    "bytes": 4113088
+  },
+  "tessdata\\rus.traineddata": {
+    "sha256": "e16e5e036cce1d9ec2b00063cf8b54472625b9e14d893a169e2b0dedeb4df225",
+    "bytes": 3861738
+  }
+}

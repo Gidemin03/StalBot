@@ -1,0 +1,868 @@
+{
+  "utc": "2026-10-15T14:18:56.164694+00:00",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.5.4",
+  "pillow": "12.3.0",
+  "context_note": "Optimization audit; offline saved frames only; no capture or game input; OCR benchmark completed before this run",
+  "runtime_search_sha256": "23e2010c5e13a8901820edf741928d96274170629fba8b12ac83d8c9504d0500",
+  "script_sha256": "cc027d7f3219624d0d5d0af612a84d214d6a5562e00e1a7ada6ff5329e7c07e2",
+  "iterations": 100,
+  "manifest": [
+    {
+      "path": "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png",
+      "sha256": "11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0",
+      "shape": [
+        1081,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png",
+      "sha256": "3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4",
+      "shape": [
+        1081,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png",
+      "sha256": "7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855",
+      "shape": [
+        1081,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png",
+      "sha256": "ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a",
+      "shape": [
+        1081,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2\\before_search.png",
+      "sha256": "1d692e7f8d9b4251a306b9fb4682f8d908897ff0f62f5478ac9cd21e20474799",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2\\screen.png",
+      "sha256": "55c440fc234388abcfe3672379a8a5fde4fe4443bf471f49f60e3812ab54de20",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3\\before_search.png",
+      "sha256": "15658940260ddabc377b142d84494869b5776e3b50caf728b44186ebe2f61872",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3\\screen.png",
+      "sha256": "8bfae1859547d7e3ba46c02bc54c195d04495c93eaead5c92365b13e52a8a557",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45\\before_search.png",
+      "sha256": "a3f1013b373dde065a92663aa98a8975efdb72cf6f3fede5f20a21e997ecaef5",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45\\screen.png",
+      "sha256": "bd6e65ffc0e3763857e05414de8c3f3b5355ab4d1dbce78538972e078a56e0b4",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970\\before_search.png",
+      "sha256": "9aa90e359bb3e2096f66d3cdba1834dda4bf61acf05cf43be124fc424ec99aa3",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970\\screen.png",
+      "sha256": "c4c6330a5d73289ad661157d24c088860c5aabc64249a10301a37b4f797e8dce",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed\\before_search.png",
+      "sha256": "21c1ee36ba7f6264f034c90b162875928b6c49dd251b8314ede93f435daeaae2",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed\\screen.png",
+      "sha256": "735dc6b6a3951818c168a07bd764b6d41d3d39d6452565646ec80d711cdf6aa1",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb\\before_search.png",
+      "sha256": "da795d6eb96dead770b143b898e06190cc22a06e69a84285b4c8b5e7ba32f06f",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    },
+    {
+      "path": "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb\\screen.png",
+      "sha256": "fc10f70c2a34dda837149fdfd7095e12503d648d758e0b1b7c08eca8ab13df70",
+      "shape": [
+        1080,
+        1920,
+        3
+      ]
+    }
+  ],
+  "historical_traces": [
+    {
+      "path": "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2",
+      "result": "CHANGED_STABLE",
+      "samples": 4,
+      "timings": null,
+      "changed_samples": 3
+    },
+    {
+      "path": "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3",
+      "result": "CHANGED_STABLE",
+      "samples": 4,
+      "timings": null,
+      "changed_samples": 2
+    },
+    {
+      "path": "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45",
+      "result": "REFRESH_UNCONFIRMED",
+      "samples": 22,
+      "timings": {
+        "initial_capture_ms": 36.697200033813715,
+        "initial_check_ms": 16.984399990178645,
+        "click_ms": 102.91340004187077,
+        "wait_ms": 29.462600010447204,
+        "captures_ms": 695.3237002016976,
+        "checks_ms": 425.0554998870939,
+        "poll_sleep_ms": 668.0227000033483,
+        "captures": 22,
+        "mouse": {
+          "started_at": 695369.3422373,
+          "down_sent_at": 695369.3874982,
+          "released_at": 695369.4451421,
+          "move_ms": 45.260900049470365,
+          "hold_ms": 57.643899926915765,
+          "total_ms": 102.90479997638613
+        }
+      },
+      "changed_samples": 0
+    },
+    {
+      "path": "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970",
+      "result": "REFRESH_UNCONFIRMED",
+      "samples": 22,
+      "timings": null,
+      "changed_samples": 0
+    },
+    {
+      "path": "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed",
+      "result": "CHANGED_STABLE",
+      "samples": 2,
+      "timings": {
+        "initial_capture_ms": 52.14100005105138,
+        "initial_check_ms": 19.82730010058731,
+        "click_ms": 107.9858000157401,
+        "wait_ms": 705.6287999730557,
+        "captures_ms": 66.93700002506375,
+        "checks_ms": 35.9871000982821,
+        "poll_sleep_ms": 30.360099975951016,
+        "captures": 2,
+        "mouse": {
+          "started_at": 695074.5380678,
+          "down_sent_at": 695074.5879498,
+          "released_at": 695074.6460475,
+          "move_ms": 49.881999962963164,
+          "hold_ms": 58.09770000632852,
+          "total_ms": 107.97969996929169
+        },
+        "total_ms": 1019.7132000466809
+      },
+      "changed_samples": 2
+    },
+    {
+      "path": "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb",
+      "result": "CHANGED_STABLE",
+      "samples": 2,
+      "timings": {
+        "initial_capture_ms": 37.62089996598661,
+        "initial_check_ms": 20.561000099405646,
+        "click_ms": 90.55189997889102,
+        "wait_ms": 706.05290052481,
+        "captures_ms": 70.169199956581,
+        "checks_ms": 39.81470002327114,
+        "poll_sleep_ms": 30.234099947847426,
+        "captures": 2,
+        "mouse": {
+          "started_at": 695187.9158709,
+          "down_sent_at": 695187.9638977,
+          "released_at": 695188.0064138,
+          "move_ms": 48.026799922809005,
+          "hold_ms": 42.51609998755157,
+          "total_ms": 90.54289991036057
+        },
+        "total_ms": 995.9221000317484
+      },
+      "changed_samples": 2
+    }
+  ],
+  "monitoring": {
+    "A_copy9": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.18814999999999998,
+        "p95_ms": 0.3829249999999995,
+        "max_ms": 1.1441
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.12635000000000002,
+        "p95_ms": 0.2545,
+        "max_ms": 1.0625
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.06135,
+        "p95_ms": 0.1307,
+        "max_ms": 0.8178
+      },
+      "cpu_ms": 187.5,
+      "selected_pixels": 78066,
+      "rgb_bytes": 234198,
+      "pixel_copy_arrays_per_sample": 28,
+      "pixel_bytes_copied_per_sample": 468396,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "B_copy4_no_qty": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.05,
+        "p95_ms": 0.11079999999999991,
+        "max_ms": 0.4567
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.028,
+        "p95_ms": 0.05853499999999997,
+        "max_ms": 0.3804
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.0219,
+        "p95_ms": 0.04092999999999997,
+        "max_ms": 0.3903
+      },
+      "cpu_ms": 62.5,
+      "selected_pixels": 31588,
+      "rgb_bytes": 94764,
+      "pixel_copy_arrays_per_sample": 9,
+      "pixel_bytes_copied_per_sample": 189528,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "C_copy4": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.0748,
+        "p95_ms": 0.1962199999999999,
+        "max_ms": 1.0669
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.0448,
+        "p95_ms": 0.12173499999999969,
+        "max_ms": 0.8044
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.0287,
+        "p95_ms": 0.08261,
+        "max_ms": 0.5311
+      },
+      "cpu_ms": 93.75,
+      "selected_pixels": 34696,
+      "rgb_bytes": 104088,
+      "pixel_copy_arrays_per_sample": 13,
+      "pixel_bytes_copied_per_sample": 208176,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "D_views4": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.15015,
+        "p95_ms": 0.326,
+        "max_ms": 1.7215
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.01285,
+        "p95_ms": 0.02600999999999999,
+        "max_ms": 0.1141
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.13705,
+        "p95_ms": 0.3021949999999998,
+        "max_ms": 1.6978
+      },
+      "cpu_ms": 156.25,
+      "selected_pixels": 34696,
+      "rgb_bytes": 104088,
+      "pixel_copy_arrays_per_sample": 0,
+      "pixel_bytes_copied_per_sample": 0,
+      "comparison_bool_arrays_max": 24,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "E_views9": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.3399,
+        "p95_ms": 0.7328299999999999,
+        "max_ms": 2.4589
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.0256,
+        "p95_ms": 0.0466,
+        "max_ms": 1.3544
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.31515000000000004,
+        "p95_ms": 0.70073,
+        "max_ms": 2.43
+      },
+      "cpu_ms": 359.375,
+      "selected_pixels": 78066,
+      "rgb_bytes": 234198,
+      "pixel_copy_arrays_per_sample": 0,
+      "pixel_bytes_copied_per_sample": 0,
+      "comparison_bool_arrays_max": 54,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "F_compact9": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.1492,
+        "p95_ms": 0.33161999999999997,
+        "max_ms": 1.5347
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.08795,
+        "p95_ms": 0.19196999999999992,
+        "max_ms": 1.4466
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.0573,
+        "p95_ms": 0.1372149999999999,
+        "max_ms": 0.7741
+      },
+      "cpu_ms": 156.25,
+      "selected_pixels": 78066,
+      "rgb_bytes": 234198,
+      "pixel_copy_arrays_per_sample": 1,
+      "pixel_bytes_copied_per_sample": 234198,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "G_compact4": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.06835,
+        "p95_ms": 0.1717099999999999,
+        "max_ms": 1.2099
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.038650000000000004,
+        "p95_ms": 0.09005499999999986,
+        "max_ms": 1.1265
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.028,
+        "p95_ms": 0.07181999999999998,
+        "max_ms": 0.372
+      },
+      "cpu_ms": 31.25,
+      "selected_pixels": 34696,
+      "rgb_bytes": 104088,
+      "pixel_copy_arrays_per_sample": 1,
+      "pixel_bytes_copied_per_sample": 104088,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "H_runtime9": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.17835,
+        "p95_ms": 0.4132649999999999,
+        "max_ms": 1.6669
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.1123,
+        "p95_ms": 0.22264999999999996,
+        "max_ms": 1.4063
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.0648,
+        "p95_ms": 0.17324499999999995,
+        "max_ms": 0.795
+      },
+      "cpu_ms": 187.5,
+      "selected_pixels": 78066,
+      "rgb_bytes": 234198,
+      "pixel_copy_arrays_per_sample": 1,
+      "pixel_bytes_copied_per_sample": 234198,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    },
+    "I_runtime4": {
+      "total": {
+        "n": 1000,
+        "p50_ms": 0.0776,
+        "p95_ms": 0.16205999999999984,
+        "max_ms": 1.9358
+      },
+      "prepare": {
+        "n": 1000,
+        "p50_ms": 0.0459,
+        "p95_ms": 0.08693499999999997,
+        "max_ms": 1.8706
+      },
+      "two_comparisons": {
+        "n": 1000,
+        "p50_ms": 0.0307,
+        "p95_ms": 0.06839499999999991,
+        "max_ms": 0.7726
+      },
+      "cpu_ms": 78.125,
+      "selected_pixels": 34696,
+      "rgb_bytes": 104088,
+      "pixel_copy_arrays_per_sample": 1,
+      "pixel_bytes_copied_per_sample": 104088,
+      "comparison_bool_arrays_max": 2,
+      "detections": {
+        "dataset\\screenshots\\processed\\11d38bc007f789a5d4d02e4dff0f33bcb5a155d3519633d8b72d38ca1aca76e0.png": false,
+        "dataset\\screenshots\\processed\\3fe127bea84e614d4674e23bed8934a867f38a796443d2db7a67193d4dd642c4.png": false,
+        "dataset\\screenshots\\processed\\7f2d417e83d7dd70891ff04d285baa5233b703d59d5551adba165ddc50e31855.png": false,
+        "dataset\\screenshots\\processed\\ed7fc6ec520a13fd8f435350c8da835efaf7a290aadcfe5f59f1bc3dd9cd2f5a.png": false,
+        "data\\diagnostics\\search-0313408d41324d2789ef4ab50f710ce2": true,
+        "data\\diagnostics\\search-35b5567902ed4899b88e252b6cc1aed3": true,
+        "data\\diagnostics\\search-5ca96040d9424722a5f08dbcfa664d45": false,
+        "data\\diagnostics\\search-ae0daadf8b1145cbafcc45c598400970": false,
+        "data\\diagnostics\\search-d525dab27c5040e085aa6fac520160ed": true,
+        "data\\diagnostics\\search-ff73f8a772ba4944a6b1266e8bb254fb": true
+      }
+    }
+  },
+  "reported_game_trace": {
+    "path": "data\\diagnostics\\search-a68f617b4da1412a9b7377a2fe6b7e2b\\detail.json",
+    "sha256": "e15521966ad31748d1acab87754849f849383c65d6464e949bc7d12428328450",
+    "timings": {
+      "initial_capture_ms": 39.14850007276982,
+      "initial_check_ms": 21.278200089000165,
+      "click_ms": 81.66629995685071,
+      "wait_ms": 31.196199939586222,
+      "captures_ms": 165.03400006331503,
+      "checks_ms": 101.42920014914125,
+      "poll_sleep_ms": 121.05449999216944,
+      "captures": 5,
+      "mouse": {
+        "started_at": 697822.8460794,
+        "down_sent_at": 697822.8853245,
+        "released_at": 697822.9277378,
+        "move_ms": 39.24509999342263,
+        "hold_ms": 42.413300019688904,
+        "total_ms": 81.65840001311153
+      },
+      "total_ms": 561.1517999786884
+    },
+    "samples": [
+      {
+        "after_search_ms": 78.00000009592623,
+        "changed": false,
+        "stable": false,
+        "clean": true,
+        "fields_sha256": "7d4ad9368970ac68fc273fd443b536c458bc28bdd37199eeba5a51ef139bdf2d"
+      },
+      {
+        "after_search_ms": 156.00000007543713,
+        "changed": false,
+        "stable": true,
+        "clean": true,
+        "fields_sha256": "7d4ad9368970ac68fc273fd443b536c458bc28bdd37199eeba5a51ef139bdf2d"
+      },
+      {
+        "after_search_ms": 234.00000005494803,
+        "changed": true,
+        "stable": false,
+        "clean": true,
+        "fields_sha256": "c3bd5f78edeac9ac4524ae173018c9f0eb87342744223a9011dcc91a6eb15ee8"
+      },
+      {
+        "after_search_ms": 328.0000000959262,
+        "changed": true,
+        "stable": false,
+        "clean": true,
+        "fields_sha256": "ce3ad9ebf14e02c8cdc5537805647763fff303efec78043ff6b95572be836f0b"
+      },
+      {
+        "after_search_ms": 406.00000007543713,
+        "changed": true,
+        "stable": true,
+        "clean": true,
+        "fields_sha256": "ce3ad9ebf14e02c8cdc5537805647763fff303efec78043ff6b95572be836f0b"
+      }
+    ],
+    "average_check_ms": 20.28584002982825,
+    "average_capture_ms": 33.00680001266301
+  },
+  "synthetic": {
+    "row2_name": {
+      "A_copy9": true,
+      "B_copy4_no_qty": true,
+      "C_copy4": true,
+      "D_views4": true,
+      "E_views9": true,
+      "F_compact9": true,
+      "G_compact4": true,
+      "H_runtime9": true,
+      "I_runtime4": true
+    },
+    "row3_buyout": {
+      "A_copy9": true,
+      "B_copy4_no_qty": true,
+      "C_copy4": true,
+      "D_views4": true,
+      "E_views9": true,
+      "F_compact9": true,
+      "G_compact4": true,
+      "H_runtime9": true,
+      "I_runtime4": true
+    },
+    "row4_name": {
+      "A_copy9": true,
+      "B_copy4_no_qty": true,
+      "C_copy4": true,
+      "D_views4": true,
+      "E_views9": true,
+      "F_compact9": true,
+      "G_compact4": true,
+      "H_runtime9": true,
+      "I_runtime4": true
+    },
+    "row4_qty_only": {
+      "A_copy9": true,
+      "B_copy4_no_qty": false,
+      "C_copy4": true,
+      "D_views4": true,
+      "E_views9": true,
+      "F_compact9": true,
+      "G_compact4": true,
+      "H_runtime9": true,
+      "I_runtime4": true
+    },
+    "row5_only": {
+      "A_copy9": true,
+      "B_copy4_no_qty": false,
+      "C_copy4": false,
+      "D_views4": false,
+      "E_views9": true,
+      "F_compact9": true,
+      "G_compact4": false,
+      "H_runtime9": true,
+      "I_runtime4": false
+    },
+    "row9_only": {
+      "A_copy9": true,
+      "B_copy4_no_qty": false,
+      "C_copy4": false,
+      "D_views4": false,
+      "E_views9": true,
+      "F_compact9": true,
+      "G_compact4": false,
+      "H_runtime9": true,
+      "I_runtime4": false
+    },
+    "timer_column_only": {
+      "A_copy9": false,
+      "B_copy4_no_qty": false,
+      "C_copy4": false,
+      "D_views4": false,
+      "E_views9": false,
+      "F_compact9": false,
+      "G_compact4": false,
+      "H_runtime9": false,
+      "I_runtime4": false
+    },
+    "identical": {
+      "A_copy9": false,
+      "B_copy4_no_qty": false,
+      "C_copy4": false,
+      "D_views4": false,
+      "E_views9": false,
+      "F_compact9": false,
+      "G_compact4": false,
+      "H_runtime9": false,
+      "I_runtime4": false
+    }
+  },
+  "components": {
+    "auction": {
+      "n": 80,
+      "p50_ms": 0.5838000000000001,
+      "p95_ms": 0.9487349999999998,
+      "max_ms": 1.8154
+    },
+    "any_menu": {
+      "n": 80,
+      "p50_ms": 1.68985,
+      "p95_ms": 2.658465,
+      "max_ms": 4.2458
+    },
+    "outcome": {
+      "n": 80,
+      "p50_ms": 20.2456,
+      "p95_ms": 39.236715,
+      "max_ms": 52.7178
+    },
+    "baseline_sha256_tobytes": {
+      "n": 80,
+      "p50_ms": 0.27005,
+      "p95_ms": 0.5149249999999999,
+      "max_ms": 1.9625
+    },
+    "baseline_check_bundle": {
+      "n": 80,
+      "p50_ms": 23.28985,
+      "p95_ms": 26.35293,
+      "max_ms": 30.5975
+    }
+  },
+  "capture": {
+    "available": false,
+    "reason": "--capture omitted"
+  },
+  "models": {
+    "assumptions": {
+      "capture_ms": 20.0,
+      "comparison_ms": 0.1492,
+      "update_ms": "101 equally spaced hypothetical updates 40..240ms",
+      "stable_elapsed_ms": 30,
+      "excludes": "real scheduling, game GPU/CPU contention, OCR and game click acceptance"
+    },
+    "polling": [
+      {
+        "poll_ms": 0,
+        "ready": {
+          "n": 101,
+          "p50_ms": 181.34280000000004,
+          "p95_ms": 282.08880000000005,
+          "max_ms": 282.08880000000005
+        },
+        "detection_lag": {
+          "n": 101,
+          "p50_ms": 9.790400000000062,
+          "p95_ms": 19.044400000000024,
+          "max_ms": 19.790400000000062
+        },
+        "mean_captures": 9.445544554455445,
+        "mean_sleep_ms": 0.0
+      },
+      {
+        "poll_ms": 5,
+        "ready": {
+          "n": 101,
+          "p50_ms": 196.19360000000003,
+          "p95_ms": 296.79040000000003,
+          "max_ms": 296.79040000000003
+        },
+        "detection_lag": {
+          "n": 101,
+          "p50_ms": 12.492000000000047,
+          "p95_ms": 23.895200000000017,
+          "max_ms": 25.044400000000024
+        },
+        "mean_captures": 8.267326732673267,
+        "mean_sleep_ms": 36.336633663366335
+      },
+      {
+        "poll_ms": 30,
+        "ready": {
+          "n": 101,
+          "p50_ms": 220.746,
+          "p95_ms": 321.0444,
+          "max_ms": 321.0444
+        },
+        "detection_lag": {
+          "n": 101,
+          "p50_ms": 24.5968,
+          "p95_ms": 46.74600000000001,
+          "max_ms": 48.89519999999999
+        },
+        "mean_captures": 4.881188118811881,
+        "mean_sleep_ms": 116.43564356435644
+      }
+    ],
+    "mouse_commanded_delay_model": {
+      "40+40_jitter10": {
+        "n": 10000,
+        "p50_ms": 79.9010053922045,
+        "p95_ms": 93.63464773060292,
+        "max_ms": 99.96128927751604
+      },
+      "20+20_jitter0": {
+        "n": 10000,
+        "p50_ms": 40.0,
+        "p95_ms": 40.0,
+        "max_ms": 40.0
+      },
+      "10+10_jitter0": {
+        "n": 10000,
+        "p50_ms": 20.0,
+        "p95_ms": 20.0,
+        "max_ms": 20.0
+      }
+    }
+  }
+}

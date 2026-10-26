@@ -1,0 +1,846 @@
+{
+  "passed": true,
+  "cross_device_replays": 17,
+  "switches": [
+    {
+      "device": "cpu",
+      "preparation": {
+        "created": true,
+        "warmed": true,
+        "duration_ms": 1413.409800035879,
+        "load_ms": 1082.2186000877991,
+        "warmup_ms": 331.1871000332758
+      },
+      "backend": {
+        "requested_device": "cpu",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": true,
+            "enable_cpu_mem_arena": false,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": null
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "names_correct": {
+        "1": 170,
+        "3": 170,
+        "9": 170
+      },
+      "label_non_oracle_differences": [
+        {
+          "index": 8,
+          "actual": {
+            "name": "Alpine TPG-1",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Alpine TPG-1",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 121,
+          "actual": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 128,
+          "actual": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 159,
+          "actual": {
+            "name": "Компонент брони (Мастер)",
+            "color": "red",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Компонент брони (Мастер)",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        }
+      ],
+      "reused_cache": {
+        "capacity": 1000,
+        "entries": 8,
+        "hits": 9,
+        "misses": 9,
+        "evictions": 0,
+        "hit_rate": 0.5,
+        "pixel_bytes": 97128
+      }
+    },
+    {
+      "device": "dml",
+      "preparation": {
+        "created": true,
+        "warmed": true,
+        "duration_ms": 1282.8457000432536,
+        "load_ms": 780.6211001006886,
+        "warmup_ms": 502.2198000224307
+      },
+      "backend": {
+        "requested_device": "dml",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "DmlExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "DmlExecutionProvider": {},
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": false,
+            "enable_cpu_mem_arena": true,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": false
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "names_correct": {
+        "1": 170,
+        "3": 170,
+        "9": 170
+      },
+      "label_non_oracle_differences": [
+        {
+          "index": 8,
+          "actual": {
+            "name": "Alpine TPG-1",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Alpine TPG-1",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 121,
+          "actual": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 128,
+          "actual": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 159,
+          "actual": {
+            "name": "Компонент брони (Мастер)",
+            "color": "red",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Компонент брони (Мастер)",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        }
+      ],
+      "reused_cache": {
+        "capacity": 1000,
+        "entries": 8,
+        "hits": 9,
+        "misses": 9,
+        "evictions": 0,
+        "hit_rate": 0.5,
+        "pixel_bytes": 97128
+      },
+      "node_events": {
+        "DmlExecutionProvider": 74500,
+        "CPUExecutionProvider": 500
+      },
+      "profile": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\gpu-switch-native-20261016-b\\dml-profile_2026-10-16_19-41-31.json"
+    },
+    {
+      "device": "cpu",
+      "preparation": {
+        "created": true,
+        "warmed": true,
+        "duration_ms": 852.3718999931589,
+        "load_ms": 470.5028000753373,
+        "warmup_ms": 381.86310010496527
+      },
+      "backend": {
+        "requested_device": "cpu",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": true,
+            "enable_cpu_mem_arena": false,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": null
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "names_correct": {
+        "1": 170,
+        "3": 170,
+        "9": 170
+      },
+      "label_non_oracle_differences": [
+        {
+          "index": 8,
+          "actual": {
+            "name": "Alpine TPG-1",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Alpine TPG-1",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 121,
+          "actual": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 128,
+          "actual": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Stahlkopf",
+            "color": "purple",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        },
+        {
+          "index": 159,
+          "actual": {
+            "name": "Компонент брони (Мастер)",
+            "color": "red",
+            "upgrade": null,
+            "truncated": false,
+            "valid": true
+          },
+          "text_only": {
+            "name": "Компонент брони (Мастер)",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          }
+        }
+      ],
+      "reused_cache": {
+        "capacity": 1000,
+        "entries": 8,
+        "hits": 9,
+        "misses": 9,
+        "evictions": 0,
+        "hit_rate": 0.5,
+        "pixel_bytes": 97128
+      }
+    }
+  ],
+  "cli": [
+    {
+      "mode": "replay",
+      "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\templates\\Обычный скриншот.png",
+      "batch": 1,
+      "ocr_backend": {
+        "requested_device": "cpu",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": true,
+            "enable_cpu_mem_arena": false,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": null
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "preparation": {
+        "load_ms": 1285.1246999343857,
+        "warmup_ms": 455.2623999770731,
+        "duration_ms": 1740.4192999238148
+      },
+      "name_cache": {
+        "capacity": 1000,
+        "entries": 7,
+        "hits": 2,
+        "misses": 7,
+        "evictions": 0,
+        "hit_rate": 0.2222222222222222,
+        "pixel_bytes": 84987
+      },
+      "group_size": 9,
+      "selection_metric": "profit",
+      "timings": {
+        "scan": {
+          "name_ms": 314.75090025924146,
+          "quantity_ms": 0.0,
+          "buyout_ms": 0.0,
+          "evaluation_ms": 0.05630007945001125,
+          "total_ms": 315.1027000276372
+        }
+      },
+      "elapsed_ms": 315.1027000276372,
+      "chosen_row": null,
+      "rows": [
+        {
+          "row": 0,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 39.48779997881502
+        },
+        {
+          "row": 1,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 35.23140004836023
+        },
+        {
+          "row": 2,
+          "identity": {
+            "name": "CCA-Zephyr",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 36.16350004449487
+        },
+        {
+          "row": 3,
+          "identity": {
+            "name": "Колбасная нарезка",
+            "color": "green",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 59.93970006238669
+        },
+        {
+          "row": 4,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 8,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 46.58880003262311
+        },
+        {
+          "row": 5,
+          "identity": {
+            "name": "Продвинутые запчасти",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 58.07330005336553
+        },
+        {
+          "row": 6,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 0.044599990360438824
+        },
+        {
+          "row": 7,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 0.02489995677024126
+        },
+        {
+          "row": 8,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 7,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 39.38700002618134
+        }
+      ]
+    },
+    {
+      "mode": "replay",
+      "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\templates\\Обычный скриншот.png",
+      "batch": 9,
+      "ocr_backend": {
+        "requested_device": "dml",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "DmlExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "DmlExecutionProvider": {},
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": false,
+            "enable_cpu_mem_arena": true,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": false
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "preparation": {
+        "load_ms": 2065.4277000576258,
+        "warmup_ms": 2006.1810999177396,
+        "duration_ms": 4071.6294000158086
+      },
+      "name_cache": {
+        "capacity": 1000,
+        "entries": 7,
+        "hits": 0,
+        "misses": 9,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "pixel_bytes": 84987
+      },
+      "group_size": 9,
+      "selection_metric": "profit",
+      "timings": {
+        "scan": {
+          "name_ms": 193.33979999646544,
+          "quantity_ms": 0.0,
+          "buyout_ms": 0.0,
+          "evaluation_ms": 0.016099889762699604,
+          "total_ms": 193.4449999826029
+        }
+      },
+      "elapsed_ms": 193.4449999826029,
+      "chosen_row": null,
+      "rows": [
+        {
+          "row": 0,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.500500022537178
+        },
+        {
+          "row": 1,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.488499931163258
+        },
+        {
+          "row": 2,
+          "identity": {
+            "name": "CCA-Zephyr",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.486200030065245
+        },
+        {
+          "row": 3,
+          "identity": {
+            "name": "Колбасная нарезка",
+            "color": "green",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.48520002245075
+        },
+        {
+          "row": 4,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 8,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.4855000247351
+        },
+        {
+          "row": 5,
+          "identity": {
+            "name": "Продвинутые запчасти",
+            "color": "red",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.485100021689302
+        },
+        {
+          "row": 6,
+          "identity": {
+            "name": "Боевой набор",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.484900020166403
+        },
+        {
+          "row": 7,
+          "identity": {
+            "name": "Бутылка чистой воды",
+            "color": "white",
+            "upgrade": 0,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.484800019404954
+        },
+        {
+          "row": 8,
+          "identity": {
+            "name": "Ледяной ежик",
+            "color": "purple",
+            "upgrade": 7,
+            "truncated": false,
+            "valid": true
+          },
+          "reason": "unknown_name",
+          "rule": null,
+          "quantity": null,
+          "buyout": null,
+          "effective_quantity": null,
+          "profit": null,
+          "roi_percent": null,
+          "elapsed_ms": 21.48489990375108
+        }
+      ]
+    }
+  ]
+}

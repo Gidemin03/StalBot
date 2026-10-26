@@ -1,0 +1,27 @@
+{
+  "working_source_hashes_unchanged": true,
+  "settings_unchanged": true,
+  "report_links_missing": [],
+  "unit_tests": 340,
+  "unit_result": "PASS",
+  "integration_result": "PASS",
+  "scanner_cache_checks": 612,
+  "numeric": {
+    "quantity": {
+      "accepted": 53,
+      "correct": 53,
+      "semantic_correct": 169,
+      "value_n": 54,
+      "value_correct": 53,
+      "dangerous": 0
+    },
+    "buyout": {
+      "accepted": 146,
+      "correct": 158,
+      "semantic_correct": 158,
+      "value_n": 153,
+      "value_correct": 146,
+      "dangerous": 0
+    }
+  }
+}

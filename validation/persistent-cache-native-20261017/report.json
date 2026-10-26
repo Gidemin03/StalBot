@@ -1,0 +1,722 @@
+{
+  "labels_sha256": "20de6ed3e416fe9bea5e5ff614e7f9dc194978a4e79b5199108f9ffac94465d1",
+  "rows": 170,
+  "devices": {
+    "cpu": {
+      "saved": {
+        "capacity": 1000,
+        "entries": 75,
+        "hits": 435,
+        "misses": 75,
+        "evictions": 0,
+        "hit_rate": 0.8529411764705882,
+        "pixel_bytes": 910575,
+        "persistence": {
+          "enabled": true,
+          "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\cpu.names",
+          "namespace": "e5d33fdaeed25fbcb3721c91a4a97bfbd809d6a9184cb10f6bfc2ac07cf67713",
+          "device": "cpu",
+          "load_status": "missing",
+          "loaded_entries": 0,
+          "source_entries": 0,
+          "saved_entries": 75,
+          "saves": 1,
+          "save_failures": 0,
+          "last_error": null,
+          "writer_pending": false
+        }
+      },
+      "loaded": {
+        "capacity": 1000,
+        "entries": 75,
+        "hits": 0,
+        "misses": 0,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "pixel_bytes": 910575,
+        "persistence": {
+          "enabled": true,
+          "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\cpu.names",
+          "namespace": "e5d33fdaeed25fbcb3721c91a4a97bfbd809d6a9184cb10f6bfc2ac07cf67713",
+          "device": "cpu",
+          "load_status": "loaded",
+          "loaded_entries": 75,
+          "source_entries": 75,
+          "saved_entries": 0,
+          "saves": 0,
+          "save_failures": 0,
+          "last_error": null,
+          "writer_pending": false
+        }
+      },
+      "scanner_comparisons": 36,
+      "after_restart": {
+        "capacity": 1000,
+        "entries": 75,
+        "hits": 780,
+        "misses": 0,
+        "evictions": 0,
+        "hit_rate": 1.0,
+        "pixel_bytes": 910575,
+        "persistence": {
+          "enabled": true,
+          "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\cpu.names",
+          "namespace": "e5d33fdaeed25fbcb3721c91a4a97bfbd809d6a9184cb10f6bfc2ac07cf67713",
+          "device": "cpu",
+          "load_status": "loaded",
+          "loaded_entries": 75,
+          "source_entries": 75,
+          "saved_entries": 0,
+          "saves": 0,
+          "save_failures": 0,
+          "last_error": null,
+          "writer_pending": false
+        }
+      },
+      "backend": {
+        "requested_device": "cpu",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": true,
+            "enable_cpu_mem_arena": false,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": null
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "cli": {
+        "mode": "replay",
+        "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\templates\\Обычный скриншот.png",
+        "batch": 1,
+        "ocr_backend": {
+          "requested_device": "cpu",
+          "available_providers": [
+            "DmlExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "name": {
+            "loaded": true,
+            "providers": [
+              "CPUExecutionProvider"
+            ],
+            "provider_options": {
+              "CPUExecutionProvider": {}
+            },
+            "session_options": {
+              "intra_op_num_threads": 2,
+              "inter_op_num_threads": 1,
+              "execution_mode": "ORT_SEQUENTIAL",
+              "enable_mem_pattern": true,
+              "enable_cpu_mem_arena": false,
+              "graph_optimization_level": "ORT_ENABLE_ALL"
+            },
+            "runtime_provider_fallback": null
+          },
+          "numbers": {
+            "backend": "tesserocr",
+            "device": "cpu",
+            "omp_thread_limit": 2
+          },
+          "opencv_threads": 2
+        },
+        "preparation": {
+          "load_ms": 1258.6161000654101,
+          "warmup_ms": 544.8101999936625,
+          "duration_ms": 1803.4587000729516
+        },
+        "name_cache": {
+          "capacity": 1000,
+          "entries": 75,
+          "hits": 9,
+          "misses": 0,
+          "evictions": 0,
+          "hit_rate": 1.0,
+          "pixel_bytes": 910575,
+          "persistence": {
+            "enabled": true,
+            "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\cpu.names",
+            "namespace": "e5d33fdaeed25fbcb3721c91a4a97bfbd809d6a9184cb10f6bfc2ac07cf67713",
+            "device": "cpu",
+            "load_status": "loaded",
+            "loaded_entries": 75,
+            "source_entries": 75,
+            "saved_entries": 75,
+            "saves": 1,
+            "save_failures": 0,
+            "last_error": null,
+            "writer_pending": false
+          }
+        },
+        "session_seconds": 1.8370435000397265,
+        "group_size": 9,
+        "selection_metric": "profit",
+        "timings": {
+          "scan": {
+            "name_ms": 0.3111995756626129,
+            "quantity_ms": 0.0,
+            "buyout_ms": 0.0,
+            "evaluation_ms": 0.029300106689333916,
+            "total_ms": 0.5330999847501516
+          }
+        },
+        "elapsed_ms": 0.5330999847501516,
+        "chosen_row": null,
+        "rows": [
+          {
+            "row": 0,
+            "identity": {
+              "name": "Бутылка чистой воды",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.15249999705702066
+          },
+          {
+            "row": 1,
+            "identity": {
+              "name": "Боевой набор",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.056999968364834785
+          },
+          {
+            "row": 2,
+            "identity": {
+              "name": "CCA-Zephyr",
+              "color": "red",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.03750005271285772
+          },
+          {
+            "row": 3,
+            "identity": {
+              "name": "Колбасная нарезка",
+              "color": "green",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.026899971999228
+          },
+          {
+            "row": 4,
+            "identity": {
+              "name": "Ледяной ежик",
+              "color": "purple",
+              "upgrade": 8,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.026999972760677338
+          },
+          {
+            "row": 5,
+            "identity": {
+              "name": "Продвинутые запчасти",
+              "color": "red",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.02529995981603861
+          },
+          {
+            "row": 6,
+            "identity": {
+              "name": "Боевой набор",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.023700064048171043
+          },
+          {
+            "row": 7,
+            "identity": {
+              "name": "Бутылка чистой воды",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.025699962861835957
+          },
+          {
+            "row": 8,
+            "identity": {
+              "name": "Ледяной ежик",
+              "color": "purple",
+              "upgrade": 7,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.024399952962994576
+          }
+        ]
+      }
+    },
+    "dml": {
+      "saved": {
+        "capacity": 1000,
+        "entries": 75,
+        "hits": 435,
+        "misses": 75,
+        "evictions": 0,
+        "hit_rate": 0.8529411764705882,
+        "pixel_bytes": 910575,
+        "persistence": {
+          "enabled": true,
+          "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\dml.names",
+          "namespace": "fa4381f3a917aa534e878cca5aa40808323b7a9f9d200f9759ee7d6683c571de",
+          "device": "dml",
+          "load_status": "missing",
+          "loaded_entries": 0,
+          "source_entries": 0,
+          "saved_entries": 75,
+          "saves": 1,
+          "save_failures": 0,
+          "last_error": null,
+          "writer_pending": false
+        }
+      },
+      "loaded": {
+        "capacity": 1000,
+        "entries": 75,
+        "hits": 0,
+        "misses": 0,
+        "evictions": 0,
+        "hit_rate": 0.0,
+        "pixel_bytes": 910575,
+        "persistence": {
+          "enabled": true,
+          "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\dml.names",
+          "namespace": "fa4381f3a917aa534e878cca5aa40808323b7a9f9d200f9759ee7d6683c571de",
+          "device": "dml",
+          "load_status": "loaded",
+          "loaded_entries": 75,
+          "source_entries": 75,
+          "saved_entries": 0,
+          "saves": 0,
+          "save_failures": 0,
+          "last_error": null,
+          "writer_pending": false
+        }
+      },
+      "scanner_comparisons": 36,
+      "after_restart": {
+        "capacity": 1000,
+        "entries": 75,
+        "hits": 780,
+        "misses": 0,
+        "evictions": 0,
+        "hit_rate": 1.0,
+        "pixel_bytes": 910575,
+        "persistence": {
+          "enabled": true,
+          "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\dml.names",
+          "namespace": "fa4381f3a917aa534e878cca5aa40808323b7a9f9d200f9759ee7d6683c571de",
+          "device": "dml",
+          "load_status": "loaded",
+          "loaded_entries": 75,
+          "source_entries": 75,
+          "saved_entries": 0,
+          "saves": 0,
+          "save_failures": 0,
+          "last_error": null,
+          "writer_pending": false
+        }
+      },
+      "backend": {
+        "requested_device": "dml",
+        "available_providers": [
+          "DmlExecutionProvider",
+          "CPUExecutionProvider"
+        ],
+        "name": {
+          "loaded": true,
+          "providers": [
+            "DmlExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "provider_options": {
+            "DmlExecutionProvider": {},
+            "CPUExecutionProvider": {}
+          },
+          "session_options": {
+            "intra_op_num_threads": 2,
+            "inter_op_num_threads": 1,
+            "execution_mode": "ORT_SEQUENTIAL",
+            "enable_mem_pattern": false,
+            "enable_cpu_mem_arena": true,
+            "graph_optimization_level": "ORT_ENABLE_ALL"
+          },
+          "runtime_provider_fallback": false
+        },
+        "numbers": {
+          "backend": "tesserocr",
+          "device": "cpu",
+          "omp_thread_limit": 2
+        },
+        "opencv_threads": 2
+      },
+      "cli": {
+        "mode": "replay",
+        "source": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\dataset\\templates\\Обычный скриншот.png",
+        "batch": 9,
+        "ocr_backend": {
+          "requested_device": "dml",
+          "available_providers": [
+            "DmlExecutionProvider",
+            "CPUExecutionProvider"
+          ],
+          "name": {
+            "loaded": true,
+            "providers": [
+              "DmlExecutionProvider",
+              "CPUExecutionProvider"
+            ],
+            "provider_options": {
+              "DmlExecutionProvider": {},
+              "CPUExecutionProvider": {}
+            },
+            "session_options": {
+              "intra_op_num_threads": 2,
+              "inter_op_num_threads": 1,
+              "execution_mode": "ORT_SEQUENTIAL",
+              "enable_mem_pattern": false,
+              "enable_cpu_mem_arena": true,
+              "graph_optimization_level": "ORT_ENABLE_ALL"
+            },
+            "runtime_provider_fallback": false
+          },
+          "numbers": {
+            "backend": "tesserocr",
+            "device": "cpu",
+            "omp_thread_limit": 2
+          },
+          "opencv_threads": 2
+        },
+        "preparation": {
+          "load_ms": 2122.6503000361845,
+          "warmup_ms": 1836.0874999780208,
+          "duration_ms": 3958.7592999450862
+        },
+        "name_cache": {
+          "capacity": 1000,
+          "entries": 75,
+          "hits": 9,
+          "misses": 0,
+          "evictions": 0,
+          "hit_rate": 1.0,
+          "pixel_bytes": 910575,
+          "persistence": {
+            "enabled": true,
+            "path": "C:\\Users\\demid\\Documents\\PythonProj\\StalBot\\validation\\persistent-cache-native-20261017\\cache\\dml.names",
+            "namespace": "fa4381f3a917aa534e878cca5aa40808323b7a9f9d200f9759ee7d6683c571de",
+            "device": "dml",
+            "load_status": "loaded",
+            "loaded_entries": 75,
+            "source_entries": 75,
+            "saved_entries": 75,
+            "saves": 1,
+            "save_failures": 0,
+            "last_error": null,
+            "writer_pending": false
+          }
+        },
+        "session_seconds": 3.974330800003372,
+        "group_size": 9,
+        "selection_metric": "profit",
+        "timings": {
+          "scan": {
+            "name_ms": 0.18159998580813408,
+            "quantity_ms": 0.0,
+            "buyout_ms": 0.0,
+            "evaluation_ms": 0.015900004655122757,
+            "total_ms": 0.2620000159367919
+          }
+        },
+        "elapsed_ms": 0.2620000159367919,
+        "chosen_row": null,
+        "rows": [
+          {
+            "row": 0,
+            "identity": {
+              "name": "Бутылка чистой воды",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.0348777717186345
+          },
+          {
+            "row": 1,
+            "identity": {
+              "name": "Боевой набор",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.02617782188786401
+          },
+          {
+            "row": 2,
+            "identity": {
+              "name": "CCA-Zephyr",
+              "color": "red",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.023877804374529257
+          },
+          {
+            "row": 3,
+            "identity": {
+              "name": "Колбасная нарезка",
+              "color": "green",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.023077681867612734
+          },
+          {
+            "row": 4,
+            "identity": {
+              "name": "Ледяной ежик",
+              "color": "purple",
+              "upgrade": 8,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.02347780132873191
+          },
+          {
+            "row": 5,
+            "identity": {
+              "name": "Продвинутые запчасти",
+              "color": "red",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.023177799044383898
+          },
+          {
+            "row": 6,
+            "identity": {
+              "name": "Боевой набор",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.022577794475687876
+          },
+          {
+            "row": 7,
+            "identity": {
+              "name": "Бутылка чистой воды",
+              "color": "white",
+              "upgrade": 0,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.02287768034471406
+          },
+          {
+            "row": 8,
+            "identity": {
+              "name": "Ледяной ежик",
+              "color": "purple",
+              "upgrade": 7,
+              "truncated": false,
+              "valid": true
+            },
+            "reason": "unknown_name",
+            "rule": null,
+            "quantity": null,
+            "buyout": null,
+            "effective_quantity": null,
+            "profit": null,
+            "roi_percent": null,
+            "elapsed_ms": 0.022677795237137213
+          }
+        ]
+      }
+    }
+  },
+  "passed": true,
+  "code_sha256": {
+    "main.py": "e8a94dff90db764b4e1eafd22de6a7954ed6dddb214f4341e3e32d7c26c61b9a",
+    "tools\\validate_name_cache.py": "959924bbbd0364bb23d4ed5e8ccdcc1e5219ade4a0cb96bb57b27c2ff2a7abe1",
+    "stalbot\\__init__.py": "a7fe8756a7b05aeecd0492c03006c623ec9989c4a4934eb7bae3ab5e27c6ba81",
+    "stalbot\\cache_storage.py": "1f207362755fa3a5f03b2830d8c3d21049e3eef4c2e01e0940ff6471c1fbeabb",
+    "stalbot\\config.py": "cd7d33d783b17419f86786132371a1312629762ff8cc867f0931d78b69aa1a72",
+    "stalbot\\domain.py": "0df30bbac6afaceaeaee54fe007babc66cac5f61c831a3da4963a08c24840fc9",
+    "stalbot\\hotkeys.py": "e666d3abb6383f824be9aca8fc0ce8b1ee1ffcb5aaadc5bdb33963a630aa7cdf",
+    "stalbot\\interface.py": "b2600df0c6a30e56f19a9cb80fa8f9edb9352be968aed9f5ad3073b63e757f5f",
+    "stalbot\\name_cache.py": "1f547c43f494757b47ece036d4a32b8a02371cbe6ae619456bdf6f8a4cb004d4",
+    "stalbot\\ocr_session.py": "90f6ae38c13fe9b4fb9727d4e4155563f8130cf86d1d3b2bab0983ba9744a89b",
+    "stalbot\\reader_factory.py": "212d3a59b48c075fd4ef1b57786c189914c19b9480ac325be98a7ff65473ef40",
+    "stalbot\\runner.py": "9e2fff6c623858050e9d219102fca4b6e0f34a4662c6728a0162ac4be2028b8a",
+    "stalbot\\scanner.py": "ac1c08d8d8ef6e77df25595efed517df5a6644d0eb6a6198c823a5f7249e2cd8",
+    "stalbot\\search.py": "23e2010c5e13a8901820edf741928d96274170629fba8b12ac83d8c9504d0500",
+    "stalbot\\session_clock.py": "d205149dc65b4c65ee307c5d560b6b5637a070f6356965d26df3901e6e1f8832",
+    "stalbot\\storage.py": "ea30b93f6a498a4e3fc986ea61e55bbf7da2d15a42733635b94250b44f3b76c9",
+    "stalbot\\ui.py": "b88adee545d164a544d3985a5a241366edbabfaf77a13eca17ad9c957e726517",
+    "stalbot\\vision.py": "dccc3d029c1416b330d869210491756fc2e717896a790fd8273182666cad640a",
+    "stalbot\\windows.py": "1aab17759daea07c062a07782584134086b1c81ebfc95cdc92edb41b20e298d9"
+  }
+}
